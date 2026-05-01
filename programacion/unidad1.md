@@ -1,5 +1,4 @@
-<p align="center">
- # Algoritmo
+<p align="center">Algoritmo
 </p>
 
 ## ¿Qué es un algoritmo?
