@@ -4,10 +4,10 @@
 Un algoritmo es básicamente una receta o una lista de pasos que seguimos para resolver un problema o completar una tarea.
 
 **Por ejemplo, preparar un café:**
-1. Pones agua a hervir.
-2. Colocas el café en el filtro.
-3. Viertes el agua caliente.
-4. Sirves en una taza.
+*1. Pones agua a hervir.
+*2. Colocas el café en el filtro.
+*3. Viertes el agua caliente.
+*4. Sirves en una taza.
 
 ### <span style="color:#16a085">Características principales:</span>
 * **Es ordenado:** Los pasos van uno tras otro.
