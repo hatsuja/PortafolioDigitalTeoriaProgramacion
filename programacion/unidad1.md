@@ -1,5 +1,5 @@
 <p align="center">
-  # Mi Título Centrado
+ # Algoritmo
 </p>
 
 ## ¿Qué es un algoritmo?
