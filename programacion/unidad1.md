@@ -6,8 +6,8 @@ Un algoritmo es básicamente una receta o una lista de pasos que seguimos para r
 **Por ejemplo, preparar un café:**
 - Pones agua a hervir.
 + Colocas el café en el filtro.
-*3. Viertes el agua caliente.
-*4. Sirves en una taza.
+* 3. Viertes el agua caliente.
+* 4. Sirves en una taza.
 
 ### Características principales:
 * **Es ordenado:** Los pasos van uno tras otro.
