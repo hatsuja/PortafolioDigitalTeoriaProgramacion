@@ -1,5 +1,4 @@
-# <p align="center">Algoritmo
-</p>
+# <p align="center">Algoritmo</p>
 
 ## ¿Qué es un algoritmo?
 Un algoritmo es básicamente una receta o una lista de pasos que seguimos para resolver un problema o completar una tarea.
@@ -53,8 +52,7 @@ Un algoritmo se compone de 3 partes:
 3. **Salida (Output):** Es el resultado final que se obtiene.
 
 ---
-
-## Representación de un algoritmo
+## <p align="center">Representación de un Algoritmo </p>
 
 ### Lenguaje Natural
 Es la forma más sencilla utilizando nuestro propio idioma.
