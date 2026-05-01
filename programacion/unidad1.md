@@ -68,7 +68,7 @@ Es un punto medio entre nuestro idioma y el lenguaje de programación. Usamos he
     // Aquí van las declaraciones y procesos
 FinAlgoritmo]`
 
-### Ejemplo básico 
+Ejemplo básico 
 Este es un ejemplo de cómo se vería un programa completo:
 
 ```pseudocodigo
@@ -92,3 +92,25 @@ Algoritmo CalcularPromedio
         Escribir "No te desanimes, sigue practicando."
     FinSi
 FinAlgoritmo
+```
+### Diagrrama de flujo
+* **Un diagrama de flujo** es la representación gráfica de un algoritmo y utiliza símbolos estandarizados para mostrar visualmente el camino que siguen los datos y las decisiones que se toman durante un proceso
+* **Óvalo (Inicio/Fin):** Indica dónde empieza y dónde termina el algoritmo. Todo diagrama debe tener solo uno de inicio y al menos uno de fin.
+* **Paralelogramo (Entrada/Salida):** Se usa cuando el programa necesita pedir un dato al usuario (Leer) o mostrar un resultado (Escribir).
+* **Rectángulo (Proceso):** Representa cualquier operación lógica o matemática (sumas, asignaciones, cálculos).
+Rombo (Decisión): Representa una pregunta que solo tiene dos respuestas posibles: Sí/No o Verdadero/Falso. De aquí salen dos caminos distintos.
+* **Flechas (Líneas de flujo):** Indican la dirección del proceso; conectan los símbolos y muestran qué paso sigue.
+
+#### Prueba de escritorio
+La prueba de escritorio se utiliza para verificar si un algoritmo funciona correctamente 
+| Línea del Código | nota1 | nota2 | promedio |
+| :--- | :---: | :---: | :---: |
+| Escribir... | - | - | - |
+| Leer nota1 | **9** | - | - |
+| Escribir... | 9 | - | - |
+| Leer nota2 | 9 | **8** | - |
+| promedio <- ... | 9 | 8 | **8.5** |
+| Escribir... | 9 | 8 | 8.5 |
+| Si promedio >= 7 | 9 | 8 | 8.5 |
+| Escribir... | 9 | 8 | 8.5 |
+
