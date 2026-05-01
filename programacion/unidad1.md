@@ -99,7 +99,7 @@ FinAlgoritmo
 Rombo (Decisión): Representa una pregunta que solo tiene dos respuestas posibles: Sí/No o Verdadero/Falso. De aquí salen dos caminos distintos.
 * **Flechas (Líneas de flujo):** Indican la dirección del proceso; conectan los símbolos y muestran qué paso sigue.
 
-#### Prueba de escritorio
+#### ***Prueba de escritorio***
 La prueba de escritorio se utiliza para verificar si un algoritmo funciona correctamente 
 <div align="center">
 
