@@ -101,7 +101,9 @@ Rombo (Decisión): Representa una pregunta que solo tiene dos respuestas posible
 
 #### Prueba de escritorio
 La prueba de escritorio se utiliza para verificar si un algoritmo funciona correctamente 
-<p align="center">| Línea del Código | nota1 | nota2 | promedio |
+<div align="center">
+
+| Línea del Código | nota1 | nota2 | promedio |
 | :--- | :---: | :---: | :---: |
 | Escribir... | - | - | - |
 | Leer nota1 | **9** | - | - |
@@ -110,5 +112,6 @@ La prueba de escritorio se utiliza para verificar si un algoritmo funciona corre
 | promedio <- ... | 9 | 8 | **8.5** |
 | Escribir... | 9 | 8 | 8.5 |
 | Si promedio >= 7 | 9 | 8 | 8.5 |
-| Escribir... | 9 | 8 | 8.5 |</p>
+| Escribir... | 9 | 8 | 8.5 |
 
+</div>
