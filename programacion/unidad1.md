@@ -22,12 +22,12 @@ Un algoritmo es básicamente una receta o una lista de pasos que seguimos para r
 Son aquellos que usamos con palabras, como una receta de cocina o las instrucciones para armar un mueble.
 
 **Ejemplo: Cambiar una bombilla (foco)**
-* Apagar el interruptor de la luz.
-* Colocar una escalera debajo de la lámpara.
-* Subir la escalera con cuidado.
-* Girar la bombilla vieja hacia la izquierda hasta que salga.
-* Colocar la bombilla nueva y girarla hacia la derecha hasta que ajuste.
-* Bajar de la escalera y encender el interruptor.
+1.Apagar el interruptor de la luz.
+2.Colocar una escalera debajo de la lámpara.
+3.Subir la escalera con cuidado.
+4.Girar la bombilla vieja hacia la izquierda hasta que salga.
+5.Colocar la bombilla nueva y girarla hacia la derecha hasta que ajuste.
+6.Bajar de la escalera y encender el interruptor.
 
 ### Cuantitativos
 Son los que utilizan cálculos numéricos y matemáticas para llegar a un resultado.
