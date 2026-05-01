@@ -1,24 +1,24 @@
-# <span style="color:#2c3e50">Algoritmo</span>
+# Algoritmo
 
-## <span style="color:#2980b9">¿Qué es un algoritmo?</span>
+## ¿Qué es un algoritmo?
 Un algoritmo es básicamente una receta o una lista de pasos que seguimos para resolver un problema o completar una tarea.
 
 **Por ejemplo, preparar un café:**
-*1. Pones agua a hervir.
-*2. Colocas el café en el filtro.
+- Pones agua a hervir.
++ Colocas el café en el filtro.
 *3. Viertes el agua caliente.
 *4. Sirves en una taza.
 
-### <span style="color:#16a085">Características principales:</span>
+### Características principales:
 * **Es ordenado:** Los pasos van uno tras otro.
 * **Es preciso:** Cada paso es claro y no da lugar a dudas.
 * **Tiene un final:** La tarea se termina.
 
 ---
 
-## <span style="color:#2980b9">Clasificación de un algoritmo</span>
+## Clasificación de un algoritmo
 
-### <span style="color:#16a085">Cualitativos</span>
+### Cualitativos
 Son aquellos que usamos con palabras, como una receta de cocina o las instrucciones para armar un mueble.
 
 **Ejemplo: Cambiar una bombilla (foco)**
@@ -29,7 +29,7 @@ Son aquellos que usamos con palabras, como una receta de cocina o las instruccio
 * Colocar la bombilla nueva y girarla hacia la derecha hasta que ajuste.
 * Bajar de la escalera y encender el interruptor.
 
-### <span style="color:#16a085">Cuantitativos</span>
+### Cuantitativos
 Son los que utilizan cálculos numéricos y matemáticas para llegar a un resultado.
 
 **Ejemplo: Calcular el área de un triángulo**
@@ -44,7 +44,7 @@ $$A = \frac{b \times h}{2}$$
 
 ---
 
-## <span style="color:#2980b9">Estructura de un algoritmo</span>
+## Estructura de un algoritmo
 Un algoritmo se compone de 3 partes:
 
 1. **Entrada (Input):** Es la información o los datos iniciales.
@@ -53,13 +53,13 @@ Un algoritmo se compone de 3 partes:
 
 ---
 
-## <span style="color:#2980b9">Representación de un algoritmo</span>
+## Representación de un algoritmo
 
-### <span style="color:#16a085">1. Lenguaje Natural</span>
+### Lenguaje Natural
 Es la forma más sencilla utilizando nuestro propio idioma.
 > *Ejemplo: "Primero pides el nombre del usuario, luego verificas si es mayor de edad y, si lo es, le permites el acceso".*
 
-### <span style="color:#16a085">2. Pseudocódigo</span>
+### Pseudocódigo
 Es un punto medio entre nuestro idioma y el lenguaje de programación. Usamos herramientas como **PSeInt**.
 
 **Estructura básica en PSeInt:**
