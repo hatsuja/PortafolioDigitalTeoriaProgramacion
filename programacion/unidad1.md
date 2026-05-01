@@ -1,4 +1,6 @@
-<center> # Tu Título Aquí </center>
+<p align="center">
+  # Mi Título Centrado
+</p>
 
 ## ¿Qué es un algoritmo?
 Un algoritmo es básicamente una receta o una lista de pasos que seguimos para resolver un problema o completar una tarea.
