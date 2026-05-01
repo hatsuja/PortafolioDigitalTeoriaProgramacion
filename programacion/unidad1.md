@@ -64,7 +64,31 @@ Es la forma más sencilla utilizando nuestro propio idioma.
 Es un punto medio entre nuestro idioma y el lenguaje de programación. Usamos herramientas como **PSeInt**.
 
 **Estructura básica en PSeInt:**
-```cpp
-Algoritmo NombreDelPrograma
+`Algoritmo NombreDelPrograma
     // Aquí van las declaraciones y procesos
-FinAlgoritmo
+FinAlgoritmo]`
+
+Ejemplo básico 
+Este es un ejemplo de cómo se vería un programa completo:
+`Algoritmo CalcularPromedio
+    // 1. Entrada de datos
+    Escribir "Por favor, ingresa la primera nota:"
+    Leer nota1
+    Escribir "Ingresa la segunda nota:"
+    Leer nota2
+    
+    // 2. Proceso (Cálculo)
+    promedio <- (nota1 + nota2) / 2
+    
+    // 3. Salida de resultados
+    Escribir "Tu promedio final es: ", promedio
+    
+    // Condicional sencillo para dar apoyo
+    Si promedio >= 7 Entonces
+        Escribir "¡Felicidades! Has aprobado."
+    Sino
+        Escribir "No te desanimes, sigue practicando."
+    FinSi
+FinAlgoritmo`
+
+
