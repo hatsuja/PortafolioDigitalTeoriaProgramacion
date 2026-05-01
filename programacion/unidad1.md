@@ -68,9 +68,11 @@ Es un punto medio entre nuestro idioma y el lenguaje de programación. Usamos he
     // Aquí van las declaraciones y procesos
 FinAlgoritmo]`
 
-Ejemplo básico 
+### Ejemplo básico 
 Este es un ejemplo de cómo se vería un programa completo:
-`Algoritmo CalcularPromedio
+
+```pseudocodigo
+Algoritmo CalcularPromedio
     // 1. Entrada de datos
     Escribir "Por favor, ingresa la primera nota:"
     Leer nota1
@@ -89,6 +91,4 @@ Este es un ejemplo de cómo se vería un programa completo:
     Sino
         Escribir "No te desanimes, sigue practicando."
     FinSi
-FinAlgoritmo`
-
-
+FinAlgoritmo
