@@ -32,12 +32,12 @@ Son aquellos que usamos con palabras, como una receta de cocina o las instruccio
 ### Cuantitativos
 Son los que utilizan cálculos numéricos y matemáticas para llegar a un resultado.
 
-**Ejemplo: Calcular el área de un triángulo**
-1. Conocer la medida de la base (b).
-2. Conocer la medida de la altura (h).
-3. Multiplicar la base por la altura (b*h).
-4. Dividir el resultado anterior entre 2.
-5. El resultado final es el área (A).
+>**Ejemplo: Calcular el área de un triángulo**
+>>1. Conocer la medida de la base (b).
+>>2. Conocer la medida de la altura (h).
+>>3. Multiplicar la base por la altura (b*h).
+>>4. Dividir el resultado anterior entre 2.
+>>5. El resultado final es el área (A).
 
 En matemáticas se vería así:  
 $$A = \frac{b \times h}{2}$$
