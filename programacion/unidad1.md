@@ -3,11 +3,11 @@
 ## ¿Qué es un algoritmo?
 Un algoritmo es básicamente una receta o una lista de pasos que seguimos para resolver un problema o completar una tarea.
 
-**Por ejemplo, preparar un café:**
-1. Pones agua a hervir.
-2. Colocas el café en el filtro.
-3. Viertes el agua caliente.
-4. Sirves en una taza.
+>**Por ejemplo, preparar un café:**
+>>1. Pones agua a hervir.
+>>2. Colocas el café en el filtro.
+>>3. Viertes el agua caliente.
+>>4. Sirves en una taza.
 
 ### Características principales:
 * **Es ordenado:** Los pasos van uno tras otro.
@@ -21,13 +21,13 @@ Un algoritmo es básicamente una receta o una lista de pasos que seguimos para r
 ### Cualitativos
 Son aquellos que usamos con palabras, como una receta de cocina o las instrucciones para armar un mueble.
 
-**Ejemplo: Cambiar una bombilla (foco)**
-1.Apagar el interruptor de la luz.
-2.Colocar una escalera debajo de la lámpara.
-3.Subir la escalera con cuidado.
-4.Girar la bombilla vieja hacia la izquierda hasta que salga.
-5.Colocar la bombilla nueva y girarla hacia la derecha hasta que ajuste.
-6.Bajar de la escalera y encender el interruptor.
+>**Ejemplo: Cambiar una bombilla (foco)**
+>>1.Apagar el interruptor de la luz.
+>>2.Colocar una escalera debajo de la lámpara.
+>>3.Subir la escalera con cuidado.
+>>4.Girar la bombilla vieja hacia la izquierda hasta que salga.
+>>5.Colocar la bombilla nueva y girarla hacia la derecha hasta que ajuste.
+>>6.Bajar de la escalera y encender el interruptor.
 
 ### Cuantitativos
 Son los que utilizan cálculos numéricos y matemáticas para llegar a un resultado.
