@@ -22,6 +22,10 @@
 
 > Unidad 1. Elementos básicos de algoritmos y programas
 
+📂 [Presentación de la Unidad](https://docs.google.com/presentation/d/1bs6HoDyvDcwvA14jA1Hx4Y7KPAVHqgL1/edit?slide=id.g385dce0f5a8_0_66#slide=id.g385dce0f5a8_0_66)
+
+> Unidad 1. Programación en C
+
 </details>
 
 ---
