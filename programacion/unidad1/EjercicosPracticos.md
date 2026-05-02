@@ -8,6 +8,9 @@
   > Ejercicios en PSeInt
   
   > Ejercicios en C
+
+  >Ejercicio con estructura secuencia
+
 </details>
 
 ---
