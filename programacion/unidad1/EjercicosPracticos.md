@@ -176,4 +176,51 @@
 
 ---
 
+* Realice un programa que permita calcular la aceleración que tiene un cuerpo al conocer su velocidad inicial y final (m/s) en un instante de tiempo.
+
+<img width="1039" height="884" alt="image" src="https://github.com/user-attachments/assets/ba961279-e123-48e5-ab27-43e61f8145bd" />
+
+<div align="center">
+
+### Prueba de escritorio: Cálculo de Aceleración
+
+| V. Inicial | V. Final | Tiempo | Operación | Aceleración |
+| :---: | :---: | :---: | :---: | :---: |
+| 10 m/s | 30 m/s | 4 s | $(30 - 10) / 4$ | 5.00 $m/s^2$ |
+
+</div>
+
+---
+
+* Realice un programa que calcule la distancia de entre los puntos p1(x1,y1) y p2(x2,y2) considerando que d= ((X2-X1)^2+(Y2-Y1)^2)^ 1⁄2
+
+<img width="1050" height="875" alt="image" src="https://github.com/user-attachments/assets/476531b2-dc87-4abc-96ee-975de33b60d5" />
+
+<div align="center">
+
+### Prueba de escritorio: Distancia entre dos puntos
+
+| Punto 1 ($x_1, y_1$) | Punto 2 ($x_2, y_2$) | Diferencias al cuadrado | Suma | Raíz (Distancia) |
+| :---: | :---: | :--- | :---: | :---: |
+| (0, 0) | (3, 4) | $(3-0)^2 = 9$ y $(4-0)^2 = 16$ | $9 + 16 = 25$ | **5.00** |
+
+</div>
+
+---
+
+*Realice un programa que descomponga un número ingresado por el usuario en su parte entera y decimal.
+
+<img width="1039" height="893" alt="image" src="https://github.com/user-attachments/assets/e3f21f3a-d056-41e9-8463-1d455d74bf58" />
+
+<div align="center">
+
+### Prueba de escritorio: Separación de Parte Entera y Decimal
+
+| Número Ingresado | Proceso Parte Entera | Resultado Entero | Proceso Parte Decimal | Resultado Decimal |
+| :---: | :---: | :---: | :---: | :---: |
+| 12.45 | `(int)12.45` | 12 | $12.45 - 12$ | **0.45** |
+
+</div>
+
+---
 
