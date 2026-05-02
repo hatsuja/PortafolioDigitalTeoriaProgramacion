@@ -7,7 +7,7 @@ Este espacio contiene el desarrollo teórico y práctico de la asignatura, organ
 ## 📂 Contenidos por Unidad
 
 ### [Unidad 1: Fundamentos de Programación](./unidad1/)
-*   **[Algoritmos y Lógica](./unidad1/Algoritmo.md):** Introducción a la resolución de problemas, programación en bloques, pseudocódigo y diagramas de flujo.
+*   **[programacion](./unidad1/Algoritmo.md):** Introducción a la resolución de problemas, programación en bloques, pseudocódigo y diagramas de flujo.
 *   **[Lenguajes de Programación](./unidad1/Lenguaje%20de%20progra...md):** Conceptos generales y clasificación de los lenguajes.
 *   **[Lenguaje C](./unidad1/LenguajeC.md):** Sintaxis básica y aplicaciones del lenguaje C.
 
