@@ -89,7 +89,7 @@ Un diagrama de flujo es la representación gráfica de un algoritmo y utiliza s�
 * **Óvalo (Inicio/Fin):** Indica dónde empieza y dónde termina el algoritmo. Todo diagrama debe tener solo uno de inicio y al menos uno de fin
 * **Paralelogramo (Entrada/Salida):** Se usa cuando el programa necesita pedir un dato al usuario (Leer) o mostrar un resultado (Escribir)
 * **Rectángulo (Proceso):** Representa cualquier operación lógica o matemática (sumas, asignaciones, cálculos)
-Rombo (Decisión): Representa una pregunta que solo tiene dos respuestas posibles: Sí/No o Verdadero/Falso. De aquí salen dos caminos distintos
+* **Rombo (Decisión):** Representa una pregunta que solo tiene dos respuestas posibles: Sí/No o Verdadero/Falso. De aquí salen dos caminos distintos
 * **Flechas (Líneas de flujo):** Indican la dirección del proceso; conectan los símbolos y muestran qué paso sigue
 
 ---
@@ -110,7 +110,7 @@ Un dato representa información  que la computadora procesa y almacena en su mem
 | **Enteros (int)** | Números exactos sin decimales (positivos, negativos o cero) | `10`, `-5`, `0`, `1500` |
 | **Reales (float/double)** | Números que incluyen una parte decimal | `3.14`, `0.5`, `-1.2` |
 | **Lógicos (boolean)** | Valores que representan estados binarios | `Verdadero`, `Falso` |
-| **Carácter (char)** | Un único símbolo, letra o número. | `'A'`, `'@'`, `'7'`, `'+'` |
+| **Carácter (char)** | Un único símbolo, letra o número | `'A'`, `'@'`, `'7'`, `'+'` |
 | **Cadena (string)** | Una secuencia o unión de varios caracteres | `"Hola mundo"`, `"Gato"`, `"1234"` |
 
 </div>
@@ -151,7 +151,7 @@ Son los nombres que les damos a los objetos en un programa. `Deben empezar con u
 | 1 | **Agrupación** | `( )`, `[ ]`, `{ }` | Paréntesis y otros signos de agrupación |
 | 2 | **Aritméticos (Altos)** | `^`, `**`, `sqrt()` | Potencia y raíz cuadrada |
 | 3 | **Aritméticos (Medios)** | `*`, `/`, `mod`, `%` | Multiplicación, división y residuo (módulo) |
-| 4 | **Aritméticos (Bajos)** | `+`, `-` | Suma y resta. |
+| 4 | **Aritméticos (Bajos)** | `+`, `-` | Suma y resta |
 | 5 | **Relacionales** | `>`, `<`, `>=`, `<=`, `=`, `<>` | Comparaciones (mayor, menor, igual, diferente) |
 | 6 | **Lógicos** | `NOT`, `AND`, `OR` | Negación, conjunción y disyunción |
 
