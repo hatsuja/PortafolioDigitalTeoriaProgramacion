@@ -1,10 +1,13 @@
 # <p align="center">Ejercicios practicos</p>
 
+## Ejercicios en PSeInt
+
 ---
 
 <details>
   <summary>Contenidos</summary> 
   > Ejercicios en PSeInt
+  
   > Ejercicios en C
 </details>
 
