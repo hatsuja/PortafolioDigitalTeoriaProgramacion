@@ -32,3 +32,8 @@ int main(){
 return 0;
 } 
 ```
+Por lo general se complicar se usa 
+``` 
+gcc .\hola_mundo.c -o hola_mundo
+```
+El compilador traduce directamente el código a lenguaje máquina
