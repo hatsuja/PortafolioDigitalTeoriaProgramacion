@@ -31,7 +31,7 @@ las bibliotecas las cuales se usan para incluir funciones externas
 
 La función principal que es el (main) el cual es el punto de inicio de cualquier programa en C y odo el código que se ejecuta va dentro de llaves { }
 
-** ### Ejemplo
+* ### Ejemplo
 
 ```
 #include<stdio.h>
@@ -54,3 +54,21 @@ Y para ejecutar
 .\hola_mundo.exe
 ```
 >El archivo corre directamente en el Sistema Operativo
+
+---
+
+## Tipo de datos 
+
+<div align="center">
+
+| Tipo de Dato | ¿Qué guarda? | Ejemplo de Declaración |
+| :---: | :--- | :--- |
+| `int` | Números enteros (sin decimales), positivos o negativos | `int edad = 20;` |
+| `float` | Números con decimales sencillos | `float precio = 10.50;` |
+| `double` | Números con decimales más largos o precisos | `double pi = 3.14159265;` |
+| `char` | Una sola letra, número o símbolo | `char letra = 'A';` |
+| `char[]` | un grupo de caracteres | `char nombre[] = "Hatsu";` |
+
+</div>
+
+
