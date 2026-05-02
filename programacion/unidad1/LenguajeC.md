@@ -68,22 +68,12 @@ Y para ejecutar
 | `double` | Números con decimales más largos o precisos | `double pi = 3.14159265;` |
 | `char` | Una sola letra, número o símbolo | `char letra = 'A';` |
 | `char[]` | un grupo de caracteres | `char nombre[] = "Hatsu";` |
+| `const` | Un valor que **no cambia** en todo el programa | `const int IVA = 16;` |
+| `#define` | Define un valor fijo al inicio del código | `#define TASA 0.15` |
 
 </div>
 
+>Variables: Son como "cajas" donde guardas información que puede cambiar mientras el programa corre
 
-<div align="center">
-
-| Concepto | Tipo de Dato | ¿Qué guarda? | Ejemplo de Declaración |
-| :--- | :---: | :--- | :--- |
-| **Variable Entera** | `int` | Números enteros (sin decimales), positivos o negativos. | `int edad = 20;` |
-| **Variable Flotante** | `float` | Números con decimales sencillos. | `float precio = 10.50;` |
-| **Variable de Precisión** | `double` | Números con decimales más largos o precisos. | `double pi = 3.14159265;` |
-| **Variable de Carácter** | `char` | Una sola letra, número o símbolo. | `char letra = 'A';` |
-| **Cadenas (Strings)** | `char[]` | Palabras o frases (un grupo de caracteres). | `char nombre[] = "Hatsu";` |
-| **Constante** | `const` | Un valor que **no cambia** en todo el programa. | `const int IVA = 16;` |
-| **Macro Constante** | `#define` | Define un valor fijo al inicio del código. | `#define TASA 0.15` |
-
-</div>
-
+>Constantes: Se usan para valores que deben permanecer fijos, como el valor de PI o un porcentaje de impuesto
 
