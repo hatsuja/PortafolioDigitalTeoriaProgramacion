@@ -1,7 +1,5 @@
 # <p align="center">Ejercicios practicos</p>
 
-## Ejercicios en PSeInt
-
 ---
 
 <details>
@@ -22,6 +20,10 @@
 > Unidad 1. Elementos básicos de algoritmos y programas
 
 </details>
+
+---
+
+## Ejercicios en PSeInt
 
 ---
 
@@ -120,3 +122,7 @@
 | $1000 | $150 | $600 | **$7,200** |
 
 </div>
+
+---
+
+## Ejercicios en C
