@@ -24,6 +24,11 @@ las bibliotecas las cuales se usan para incluir funciones externas
 La función principal el (main) el cual es el punto de inicio de cualquier programa en C y odo el código que se ejecuta va dentro de llaves { }
 
 ### Ejemplo
-```
 
+```
+#include<stdio.h>
+int main(){
+   //proceso
+return 0;
+} 
 ```
