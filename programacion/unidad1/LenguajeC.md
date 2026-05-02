@@ -44,12 +44,12 @@ return 0;
 * ### Compilacion y ejecución
 
 Por lo general para complicar se usa
-
+<p align="center">
 
 ``` 
-<p align="center"> gcc .\hola_mundo.c -o hola_mundo </p>
+ gcc .\hola_mundo.c -o hola_mundo 
 ```
-
+</p>
 
 >El compilador traduce directamente el código a lenguaje máquina
 
