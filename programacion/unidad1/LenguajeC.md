@@ -45,11 +45,11 @@ return 0;
 
 Por lo general para complicar se usa
 
-<p align="center">
+
 ``` 
-gcc .\hola_mundo.c -o hola_mundo
+<p align="center"> gcc .\hola_mundo.c -o hola_mundo </p>
 ```
-C</p>
+
 
 >El compilador traduce directamente el código a lenguaje máquina
 
