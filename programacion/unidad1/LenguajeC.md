@@ -43,7 +43,7 @@ return 0;
 
 * ### Compilacion y ejecución
 
-Por lo general para complicar se usa
+Por lo general para compilar se usa
 
 ``` 
  gcc .\hola_mundo.c -o hola_mundo 
