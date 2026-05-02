@@ -5,5 +5,16 @@
 </details>
 + Este texto se verá en color verde.
 <u>Este texto estará subrayado</u>
+
 X<sup>2</sup>
 H<sub>2</sub>O
+
+<table>
+  <tr>
+    <th colspan="2">Encabezado que ocupa dos columnas</th>
+  </tr>
+  <tr>
+    <td>Dato 1</td>
+    <td>Dato 2</td>
+  </tr>
+</table>
