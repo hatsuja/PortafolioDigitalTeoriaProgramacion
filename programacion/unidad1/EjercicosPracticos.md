@@ -30,3 +30,19 @@
 
 </div>
 
+* Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero. Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas, pero ella generalmente las tiene en metros. Realice un algoritmo que determine cuántas pulgadas debe pedir con base en los metros que requiere (1 pulgada = 0.0254 m O 1 metro = 39.37 pulgadas)
+
+<img width="1919" height="1005" alt="image" src="https://github.com/user-attachments/assets/67072538-cd2f-4d2c-bea7-96ae1be6148b" />
+
+<div align="center">
+
+### Prueba de escritorio
+
+| Metros requeridos | Conversión | Pulgadas a pedir |
+| :--- | :---: | :--- |
+| 1 metro | $1 \times 39.37$ | 39.37 pulgadas |
+| 2 metros | $2 \times 39.37$ | 78.74 pulgadas |
+| 5 metros | $5 \times 39.37$ | 196.85 pulgadas |
+
+</div>
+
