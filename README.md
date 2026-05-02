@@ -11,17 +11,14 @@ Bienvenido a mi portafolio digital para la asignatura de **Teoría de la Program
 ## 🏫 Información Institucional
 *   **Institución:** Universidad Nacional de Loja
 *   **Facultad:** Energía, las Industrias y los Recursos Naturales no Renovables
-*   **Carrera:** Computación[cite: 1]
-*   **Asignatura:** Teoría de la Programación[cite: 1]
-*   **Unidad:** 1 - Fundamentos y Estructuras Secuenciales[cite: 1]
-*   **Estudiante:** [TU NOMBRE AQUÍ]
-*   **Docente:** [NOMBRE DE TU DOCENTE]
-*   **Ciclo/Período:** [EJ: Primer Ciclo - 2024]
+*   **Carrera:** Computación
+*   **Asignatura:** Teoría de la Programación
+
 
 ---
 
 ## 🎯 Objetivo del Portafolio
-Registrar y organizar las actividades de la Unidad 1, integrando evidencias y reflexiones que consoliden los aprendizajes sobre algoritmos, diagramas de flujo y programas con estructuras secuenciales.[cite: 1]
+Registrar y organizar las actividades de la Unidad integrando evidencias y reflexiones que consoliden los aprendizaje que obtenido 
 
 ---
 
@@ -29,9 +26,10 @@ Registrar y organizar las actividades de la Unidad 1, integrando evidencias y re
 
 Para facilitar la navegación, los contenidos se encuentran organizados de la siguiente manera:
 
-1.  **[Índice de Contenidos](./index.md):** Mapa general de temas y actividades.
-2.  **[Unidad 1 - Fundamentos](./programacion/unidad1/):** Documentación sobre algoritmos, pseudocódigo y lenguajes de programación.[cite: 1]
-3.  **[Evidencias Prácticas](./programacion/unidad1/ejercicio_secuencial.md):** Resolución de problemas, codificación en lenguaje C y pruebas de escritorio.[cite: 1]
+1.  **[Índice de Contenidos](index.md):**
+* > Unidad 1
+* > Unidad 2
+* > Unidad 3
 
 ---
 
