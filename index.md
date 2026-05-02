@@ -7,8 +7,10 @@ Este espacio contiene el desarrollo teórico y práctico
 ## 📂 Contenidos por Unidad
 
 ### [Unidad 1](programacion/unidad1)
-**[Algortimo](programacion/unidad1/Algoritmo.md):** Introducción a la resolución de problemas, programación en bloques, pseudocódigo y diagramas de flujo.
-**[Lenguajes de Programación](programacion/unidad1/Lenguaje de programacion.md):** Conceptos generales y clasificación de los lenguajes.
+**[Algortimo](programacion/unidad1/Algoritmo.md):** Introducción a la resolución de problemas, programación en bloques, pseudocódigo y diagramas de flujo
+
+**[Lenguajes de Programación](programacion/unidad1/Lenguaje de programacion.md):** Conceptos generales y clasificación de los lenguajes
+
 **[Lenguaje C](programacion/unidad1/LenguajeC.md):** Sintaxis básica y aplicaciones del lenguaje C
 
 ### Unidad 2
