@@ -9,7 +9,7 @@
 ---
 ## Estructura de un Programa en C
 
-Bibliotecas las cuales se usan para incluir funciones externas
+las bibliotecas las cuales se usan para incluir funciones externas
 
 >#include <stdio.h>
 
@@ -21,4 +21,9 @@ Bibliotecas las cuales se usan para incluir funciones externas
 
 >#include <time.h>
 
-Función Principal el (main) el cual es el punto de inicio de cualquier programa en C y odo el código que se ejecuta va dentro de llaves { }
+La función principal el (main) el cual es el punto de inicio de cualquier programa en C y odo el código que se ejecuta va dentro de llaves { }
+
+### Ejemplo
+```
+
+```
