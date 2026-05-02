@@ -65,19 +65,19 @@ Son los nombres que les damos a los objetos en un programa. `Deben empezar con u
 
 #### Prueba de escritorio
 La prueba de escritorio se utiliza para verificar si un algoritmo funciona correctamente 
+Area de un triangulo
+datos 
+Altura=3
+Base=4
+Area= 6
 
+$$A = \frac{b \times h}{2}$$
 <div align="center">
 
-| Línea del Código | nota1 | nota2 | promedio |
-| :--- | :---: | :---: | :---: |
-| Escribir... | - | - | - |
-| Leer nota1 | **9** | - | - |
-| Escribir... | 9 | - | - |
-| Leer nota2 | 9 | **8** | - |
-| promedio <- ... | 9 | 8 | **8.5** |
-| Escribir... | 9 | 8 | 8.5 |
-| Si promedio >= 7 | 9 | 8 | 8.5 |
-| Escribir... | 9 | 8 | 8.5 |
+| Base | Altura | promedio |
+| 4| 6| $$A = \frac{b \times h}{2}$$| 
+
+
 
 </div>
 
