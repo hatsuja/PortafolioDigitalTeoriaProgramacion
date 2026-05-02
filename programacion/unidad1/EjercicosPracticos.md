@@ -292,7 +292,7 @@
 
 ---
 
-<div align="center"> Ejercicio con estructura secuencial
+# <div align="center"> Ejercicio con estructura secuencial</div>
 
 
 ## Ejercicio: Cálculo de Total de Compra con IVA1. 
