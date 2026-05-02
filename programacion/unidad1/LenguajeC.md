@@ -189,4 +189,3 @@ printf("Ingrese su sueldo: ");
 scanf("%f", &sueldo); // El & es obligatorio para tipos básicos
 ```
 
-<p align="center"> [Unidad 1](programacion/unidad1) </p>
