@@ -37,3 +37,20 @@ Son los nombres que les damos a los objetos en un programa. `Deben empezar con u
 | **Comentarios** | Notas para el programador que la computadora ignora al ejecutar. | `//` |
 
 </div>
+
+## Expresiones y Prioridad de Operadores
+
+<div align="center">
+
+| Orden de Prioridad | Categoría | Operadores | Descripción |
+| :---: | :--- | :--- | :--- |
+| 1 | **Agrupación** | `( )`, `[ ]`, `{ }` | Paréntesis y otros signos de agrupación. |
+| 2 | **Aritméticos (Altos)** | `^`, `**`, `sqrt()` | Potencia y raíz cuadrada. |
+| 3 | **Aritméticos (Medios)** | `*`, `/`, `mod`, `%` | Multiplicación, división y residuo (módulo). |
+| 4 | **Aritméticos (Bajos)** | `+`, `-` | Suma y resta. |
+| 5 | **Relacionales** | `>`, `<`, `>=`, `<=`, `=`, `<>` | Comparaciones (mayor, menor, igual, diferente). |
+| 6 | **Lógicos** | `NOT`, `AND`, `OR` | Negación, conjunción y disyunción. |
+
+</div>
+
+
