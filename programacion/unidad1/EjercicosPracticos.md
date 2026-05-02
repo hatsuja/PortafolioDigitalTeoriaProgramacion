@@ -38,11 +38,22 @@
 
 ### Prueba de escritorio
 
-| Metros requeridos | Conversión | Pulgadas a pedir |
-| :--- | :---: | :--- |
-| 1 metro | $1 \times 39.37$ | 39.37 pulgadas |
-| 2 metros | $2 \times 39.37$ | 78.74 pulgadas |
-| 5 metros | $5 \times 39.37$ | 196.85 pulgadas |
+| Metros | Operación | Total Pulgadas |
+| :---: | :---: | :---: |
+| 20 m | $20 \times 39.37$ | 787.4 pulg. |
 
 </div>
 
+*Un productor de leche lleva el registro de lo que produce en litros, pero cuando entrega le pagan en galones. Realice un algoritmo que ayude al productor a saber cuánto recibirá por la entrega de su producción de un día (1 galón = 3.785 litros).
+
+<img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/44a21c36-4f1c-4d87-ac91-a392563a635e" />
+
+<div align="center">
+
+### Prueba de escritorio
+
+| Litros Producidos | Operación (Litros / 3.785) | Total Galones | Precio por Galón | Total a Recibir |
+| :---: | :---: | :---: | :---: | :---: |
+| 5 | $5 / 3.785$ | 1.32 gal. | $20 | **$26.40** |
+
+</div>
