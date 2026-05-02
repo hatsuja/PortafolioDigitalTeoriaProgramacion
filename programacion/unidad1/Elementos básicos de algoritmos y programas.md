@@ -3,6 +3,8 @@
 ## Datos e información
 Un dato representa información  que la computadora procesa y almacena en su memoria
 
+---
+
 ## Tipo de datos
 
 <div align="center">
@@ -17,6 +19,8 @@ Un dato representa información  que la computadora procesa y almacena en su mem
 
 </div>
 
+---
+
 ## Identificadores
 
 Son los nombres que les damos a los objetos en un programa. `Deben empezar con una letra o subguión, no tener espacios, ni caracteres especiales como la "ñ" o tildes.`  
@@ -24,6 +28,8 @@ Son los nombres que les damos a los objetos en un programa. `Deben empezar con u
 **Variables:** Su valor puede cambiar durante el programa. `Se recomienda usar la notación lowerCamelCase (ej. nombreUsuario).`  
 
 **Constantes:** Su valor no cambia. Por buena práctica, `se escriben siempre en MAYÚSCULAS.`
+
+---
 
 ## Operaciones Básicas
 
@@ -37,6 +43,8 @@ Son los nombres que les damos a los objetos en un programa. `Deben empezar con u
 | **Comentarios** | Notas para el programador que la computadora ignora al ejecutar. | `//` |
 
 </div>
+
+---
 
 ## Expresiones y Prioridad de Operadores
 
@@ -52,5 +60,27 @@ Son los nombres que les damos a los objetos en un programa. `Deben empezar con u
 | 6 | **Lógicos** | `NOT`, `AND`, `OR` | Negación, conjunción y disyunción. |
 
 </div>
+
+---
+
+#### Prueba de escritorio
+La prueba de escritorio se utiliza para verificar si un algoritmo funciona correctamente 
+
+<div align="center">
+
+| Línea del Código | nota1 | nota2 | promedio |
+| :--- | :---: | :---: | :---: |
+| Escribir... | - | - | - |
+| Leer nota1 | **9** | - | - |
+| Escribir... | 9 | - | - |
+| Leer nota2 | 9 | **8** | - |
+| promedio <- ... | 9 | 8 | **8.5** |
+| Escribir... | 9 | 8 | 8.5 |
+| Si promedio >= 7 | 9 | 8 | 8.5 |
+| Escribir... | 9 | 8 | 8.5 |
+
+</div>
+
+
 
 
