@@ -77,8 +77,24 @@
 
 ### Prueba de escritorio
 
-| Horas (Fracción redondeada) | Precio por Hora | Operación | Total a Cobrar |
+| Horas | Precio por Hora | Operación | Total a Cobrar |
 | :---: | :---: | :---: | :---: |
-| 3 (Ejemplo: 2h 15min) | $15 | $3 \times 15$ | **$45** |
+| 3  | $15 | $3 \times 15$ | **$45** |
+
+</div>
+
+---
+
+* Realice el algoritmo para determinar cuánto dinero ahorra una persona en un año si considera que cada semana ahorra 15% de su sueldo (considere cuatro semanas por mes y que no cambia el sueldo).
+
+<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/897ddd4c-d086-4076-8e60-3ec18969adc0" />
+
+<div align="center">
+
+###  Prueba de escritorio
+
+| Sueldo Mensual | Ahorro Semanal (15%) | Ahorro Mensual ($\times 4$) | Total Ahorro Anual ($\times 12$) |
+| :---: | :---: | :---: | :---: |
+| $1000 | $150 | $600 | **$7,200** |
 
 </div>
