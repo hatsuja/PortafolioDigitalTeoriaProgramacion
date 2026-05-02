@@ -7,6 +7,11 @@
 >Es ideal para crear sistemas operativos, compiladores y software que requiera alta velocidad siendo un lenguaje compilado, lo que significa que el código fuente se traduce totalmente a lenguaje máquina antes de ejecutarse
 
 ---
+
+>## Palabras reservadas en C
+>>main, break, while, for, switch, continue, printf, scanf, define, etc.
+
+---
 ## Estructura de un Programa en C
 
 * ### Archivo
@@ -122,7 +127,7 @@ Estos operadores permiten realizar una operación aritmética y asignar el resul
 
 ## Entrada y Salida de datos
 
-**Salida de Datos: printf()**
+* **Salida de Datos: printf()**
 
 La función printf (print formatted) sirve para enviar información a la salida estándar (normalmente el monitor)
 
@@ -141,7 +146,7 @@ int edad = 20;
 printf("Hola, mi edad es %i años.\n", edad);
 ```
 
-## Entrada de Datos: scanf()
+* ## Entrada de Datos: scanf()
 
 La función scanf (scan formatted) permite que el programa se detenga y espere a que el usuario ingrese un valor por teclado
 
@@ -151,4 +156,13 @@ Su estructura se divide en dos partes principales:
 
 > ***Máscara de formato:*** Indica qué tipo de dato estamos esperando (ej. %f para un decimal)
 
-> ***El Operador de Dirección (&):*** Este es el punto más crítico. En C, scanf no necesita el valor de la variable, sino saber en qué parte de la memoria está guardada para poder meter el nuevo dato ahí. El símbolo & le da esa dirección
+> ***El Operador de Dirección (&):***  scanf no necesita el valor de la variable, sino saber en qué parte de la memoria está guardada para poder meter el nuevo dato ahí y el símbolo & le da esa dirección
+
+### Ejemplo
+
+```
+float sueldo;
+printf("Ingrese su sueldo: ");
+scanf("%f", &sueldo); // El & es obligatorio para tipos básicos
+```
+
