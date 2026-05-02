@@ -6,8 +6,10 @@
   <summary>Lista de ejercicios</summary>
   Aquí puedes poner el código en C, una tabla o cualquier explicación que quieras que esté oculta al principio.
 
-📂 [Presentación de la Unidad y ejercisios](https://docs.google.com/presentation/d/1BXscIc91qjwGZLx_u-s0uHTUoemnmcoF/edit?slide=id.g381e014a9bd_0_148#slide=id.g381e014a9bd_0_148)
+📂 [Presentación de la Unidad ](https://docs.google.com/presentation/d/1BXscIc91qjwGZLx_u-s0uHTUoemnmcoF/edit?slide=id.g381e014a9bd_0_148#slide=id.g381e014a9bd_0_148)
 
+> Unidad 1. Elementos básicos de algoritmos y programas
+> 
 </details>
 
 ---
