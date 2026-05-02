@@ -12,10 +12,10 @@ Este espacio contiene el desarrollo teórico y práctico de la asignatura, organ
 *   **[Lenguaje C](./unidad1/LenguajeC.md):** Sintaxis básica y aplicaciones del lenguaje C.
 
 ### Unidad 2
-*   *(Próximamente)* - Temas relacionados con estructuras de control.
+*   *(Próximamente)*
 
 ### Unidad 3
-*   *(Próximamente)* - Temas relacionados con arreglos y funciones.
+*   *(Próximamente)* 
 
 ---
 **Formato:** Basado en estándares IEEE para documentación técnica.
