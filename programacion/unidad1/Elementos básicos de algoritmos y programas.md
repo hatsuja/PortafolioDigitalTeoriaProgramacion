@@ -75,7 +75,8 @@ $$A = \frac{b \times h}{2}$$
 <div align="center">
 
 | Base | Altura | promedio |
-| 4| 6| $$A = \frac{b \times h}{2}$$| 
+| :--- | :--- | :--- |
+| 4| 6| $$A = \frac{4 \times 3}{2}$$ = 6| 
 
 
 
