@@ -18,8 +18,11 @@ Un dato representa información  que la computadora procesa y almacena en su mem
 </div>
 
 ## Identificadores
+
 Son los nombres que les damos a los objetos en un programa. `Deben empezar con una letra o subguión, no tener espacios, ni caracteres especiales como la "ñ" o tildes.`  
+
 **Variables:** Su valor puede cambiar durante el programa. `Se recomienda usar la notación lowerCamelCase (ej. nombreUsuario).`  
+
 **Constantes:** Su valor no cambia. Por buena práctica, `se escriben siempre en MAYÚSCULAS.`
 
 ## Operaciones Básicas
