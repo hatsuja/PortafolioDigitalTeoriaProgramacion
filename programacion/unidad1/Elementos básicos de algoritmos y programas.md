@@ -68,7 +68,8 @@ La prueba de escritorio se utiliza para verificar si un algoritmo funciona corre
 
 ### Ejemplo en PSeInt
 
-`Algoritmo CalcularAreaTriangulo
+```
+Algoritmo CalcularAreaTriangulo
 	Definir base, altura, area Como Real
 	Escribir "Ingresa la base del triángulo:"
 	Leer base
@@ -77,10 +78,13 @@ La prueba de escritorio se utiliza para verificar si un algoritmo funciona corre
 	// proceso
 	area = (base * altura) / 2
 	Escribir "El área del triángulo es: ", area
-FinAlgoritmo`
+FinAlgoritmo
+```
 
 <div align="center"> Area de un triángulo </div>
- Datos
+
+Datos
+
 Altura=3
 
 Base=4
