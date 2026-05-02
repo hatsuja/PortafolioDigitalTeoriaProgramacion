@@ -4,7 +4,7 @@
 
  Es un lenguaje de nivel medio que combina la potencia del lenguaje ensamblador con la facilidad de los lenguajes de alto nivel y fue desarrollado por Dennis Ritchie en los laboratorios Bell en 1972.
 
-<img width="1600" height="1066" alt="image" src="https://github.com/user-attachments/assets/1d6b3396-8afc-4187-ab1a-26b09f2dfbc4" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/1d6b3396-8afc-4187-ab1a-26b09f2dfbc4" />
 
 
 >Es ideal para crear sistemas operativos, compiladores y software que requiera alta velocidad siendo un lenguaje compilado, lo que significa que el código fuente se traduce totalmente a lenguaje máquina antes de ejecutarse
