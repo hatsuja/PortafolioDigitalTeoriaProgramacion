@@ -53,20 +53,20 @@ Un algoritmo se compone de 3 partes:
 3. **Salida (Output):** Es el resultado final que se obtiene
 
 ---
-## <p align="center">Representación de un Algoritmo </p>
-
+## <p align="center"> Representación de un Algoritmo </p>
 ### Lenguaje Natural
 Es la forma más sencilla utilizando nuestro propio idioma
 > *Ejemplo: "Primero pides el nombre del usuario, luego verificas si es mayor de edad y, si lo es, le permites el acceso"*
 
 ---
 
-# Progrmacion por bloques
+
+# <p align="center"> Progrmacion por bloques</p>
 
 >La programación por bloques es una forma de aprender a programar de manera visual y muy sencilla
 >Se usa en herramientas como Scratch, Blockly de Google o Code.org
 ## ¿Cómo funciona?
-Cada bloque representa una instrucción o una regla lógica como "avanzar", "repetir" o "si pasa esto, haz aquello" y estos bloques están diseñados para encajar solo si la lógica es correcta. Si intentas poner una pieza donde no va, simplemente no encajará, lo que te ayuda a evitar errores desde el principio.
+Cada bloque representa una instrucción o una regla lógica como "avanzar", "repetir" o "si pasa esto, haz aquello" y estos bloques están diseñados para encajar solo si la lógica es correcta. Si intentas poner una pieza donde no va, simplemente no encajará, lo que te ayuda a evitar errores desde el principio
 
 ## Caracteristicas:
 * No se necesita memorizar palabras raras o sintaxis complicada
@@ -77,7 +77,8 @@ Cada bloque representa una instrucción o una regla lógica como "avanzar", "rep
 
 ---
 
-# Pseudocódigo
+# <p align="center"> Pseudocódigo</p>
+
 Es un punto medio entre nuestro idioma y el lenguaje de programación. Usamos herramientas como **PSeInt**
 
 **Estructura básica en PSeInt:**
@@ -102,8 +103,8 @@ FinAlgoritmo
 ```
 
 ---
+# <p align="center"> Diagrama de flujo</p>
 
-# Diagrama de flujo
 Un diagrama de flujo es la representación gráfica de un algoritmo y utiliza símbolos estandarizados para mostrar visualmente el camino que siguen los datos y las decisiones que se toman durante un proceso
 * **Óvalo (Inicio/Fin):** Indica dónde empieza y dónde termina el algoritmo. Todo diagrama debe tener solo uno de inicio y al menos uno de fin
 * **Paralelogramo (Entrada/Salida):** Se usa cuando el programa necesita pedir un dato al usuario (Leer) o mostrar un resultado (Escribir)
