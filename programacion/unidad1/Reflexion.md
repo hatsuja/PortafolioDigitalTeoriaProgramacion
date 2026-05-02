@@ -4,3 +4,6 @@
   Aquí puedes poner el código en C, una tabla o cualquier explicación que quieras que esté oculta al principio.
 </details>
 + Este texto se verá en color verde.
+<u>Este texto estará subrayado</u>
+X<sup>2</sup>
+H<sub>2</sub>O
