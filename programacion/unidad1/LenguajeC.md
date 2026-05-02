@@ -10,10 +10,15 @@
 ## Estructura de un Programa en C
 
 Bibliotecas las cuales se usan para incluir funciones externas
->#include <stdio.h> 
+
+>#include <stdio.h>
+
 >#include <stdlib.h>
+
 >#include <string.h>
+
 >#include <math.h>
+
 >#include <time.h>
 
 Función Principal el (main) el cual es el punto de inicio de cualquier programa en C y odo el código que se ejecuta va dentro de llaves { }
