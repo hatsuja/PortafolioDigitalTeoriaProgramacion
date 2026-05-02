@@ -6,6 +6,7 @@
 
 <details>
   <summary>Contenidos</summary> 
+  
   > Ejercicios en PSeInt
   
   > Ejercicios en C
