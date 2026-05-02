@@ -113,8 +113,9 @@ Un diagrama de flujo es la representación gráfica de un algoritmo y utiliza s�
 * **Rombo (Decisión):** Representa una pregunta que solo tiene dos respuestas posibles: Sí/No o Verdadero/Falso. De aquí salen dos caminos distintos
 * **Flechas (Líneas de flujo):** Indican la dirección del proceso; conectan los símbolos y muestran qué paso sigue
 
-<img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/ffd8da73-efa1-419f-8856-33dbdfc9f2a9" />
-
+<p align="center">
+  <img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/ffd8da73-efa1-419f-8856-33dbdfc9f2a9" />
+</p>
 ---
 
 # <p align="center">Elementos básicos de algoritmos y programas </p> 
