@@ -148,3 +148,13 @@
 
 <img width="1063" height="921" alt="image" src="https://github.com/user-attachments/assets/7194699c-3374-4063-9671-7add0fdf731e" />
 
+<div align="center">
+
+### Prueba de escritorio
+
+| Pies | Yardas ($\div 3$) | Pulgadas ($\times 12$) | Centímetros ($\text{pulg} \times 2.54$) | Metros ($\text{cm} / 100$) |
+| :---: | :---: | :---: | :---: | :---: |
+| 10 | 3.33 | 120.00 | 304.80 | 3.048 |
+
+</div>
+
