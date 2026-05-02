@@ -182,7 +182,7 @@
 
 <div align="center">
 
-### Prueba de escritorio: Cálculo de Aceleración
+### Prueba de escritorio
 
 | V. Inicial | V. Final | Tiempo | Operación | Aceleración |
 | :---: | :---: | :---: | :---: | :---: |
@@ -198,7 +198,7 @@
 
 <div align="center">
 
-### Prueba de escritorio: Distancia entre dos puntos
+### Prueba de escritorio
 
 | Punto 1 ($x_1, y_1$) | Punto 2 ($x_2, y_2$) | Diferencias al cuadrado | Suma | Raíz (Distancia) |
 | :---: | :---: | :--- | :---: | :---: |
@@ -214,7 +214,7 @@
 
 <div align="center">
 
-### Prueba de escritorio: Separación de Parte Entera y Decimal
+### Prueba de escritorio
 
 | Número Ingresado | Proceso Parte Entera | Resultado Entero | Proceso Parte Decimal | Resultado Decimal |
 | :---: | :---: | :---: | :---: | :---: |
@@ -224,3 +224,68 @@
 
 ---
 
+* Escriba un programa que permita calcular la masa de aire con la siguiente fórmula: masa = (presión * volumen) / (0.37 * (temperatura + 460)). El ingreso de la masa, presión y volumen son cantidades enteras ingresadas por el usuario.
+
+<img width="1016" height="871" alt="image" src="https://github.com/user-attachments/assets/794f715a-e6c2-410c-b32c-63e805ab3c66" />
+
+<div align="center">
+
+### Prueba de escritorio
+
+| Presión | Volumen | Temperatura | Operación | Masa Resultante |
+| :---: | :---: | :---: | :---: | :---: |
+| 10 | 20 | 30 | $(10 \times 20) / (0.37 \times (30 + 460))$ | **1.1031** |
+
+</div>
+
+---
+
+* En una concesionaria de vehículos se realizaron tres ventas de vehículos de alta gama a 3 clientes. Cada vehículo cuesta 30000, 29000 y 33000 usd. El gerente desea saber cuál es porcentaje (comisión) que cada vendedor se llevaría, lo que le pagará a cada uno de ellos (considerando el 4% por cada vendedor) y lo que le pagará en conjunto (total).
+
+<img width="1029" height="865" alt="image" src="https://github.com/user-attachments/assets/56fc24d1-dd78-45a5-9265-995eec757d88" />
+
+<div align="center">
+
+### Prueba de escritorio
+
+| Vehículo | Precio (USD) | Comisión (%) | Pago Individual |
+| :--- | :---: | :---: | :---: |
+| Auto 1 | $30,000 | 4% | $1,200 |
+| Auto 2 | $29,000 | 4% | $1,160 |
+| Auto 3 | $33,000 | 4% | $1,320 |
+| **TOTAL** | **$92,000** | | **$3,680** |
+
+</div>
+
+* Un empleado de la empresa “Mi tienda es tuya” recibe un sueldo mensual, por su trabajo ha recibido un incremento del 25% sobre su sueldo anterior. Desarrolle un programa que permita calcular el nuevo sueldo del empleado.
+
+<img width="1038" height="908" alt="image" src="https://github.com/user-attachments/assets/88f6fa8d-d7f6-4717-949f-3de18f42b04a" />
+
+<div align="center">
+
+### Prueba de escritorio
+
+| Sueldo Anterior | Incremento (25%) | Operación Suma | Nuevo Sueldo |
+| :---: | :---: | :---: | :---: |
+| $400.00 | $100.00 | $400 + 100$ | **$500.00** |
+
+</div>
+
+---
+
+* Un grupo de 8 amigos están preparando un viaje a la ciudad de Baños y desean saber el total que pagarán por esta aventura. Tres del grupo realizarán su viaje en taxi ejecutivo. Otros dos en una buseta turística y los tres restantes en bus que cobra 20% menos que el taxi.
+
+<img width="1030" height="897" alt="image" src="https://github.com/user-attachments/assets/8efbf256-be17-416f-8fd1-c2098944acac" />
+
+<div align="center">
+
+### Prueba de escritorio: Control de Gastos de Transporte
+
+| Transporte | Cantidad | Precio Unitario | Operación | Subtotal |
+| :--- | :---: | :---: | :---: | :---: |
+| Taxi | 3 | $25.00 | $3 \times 25$ | $75.00 |
+| Buseta | 2 | $15.00 | $2 \times 15$ | $30.00 |
+| Bus | 3 | $20.00 ($25 - 20%) | $3 \times 20$ | $60.00 |
+| **TOTAL** | **8** | | | **$165.00** |
+
+</div>
