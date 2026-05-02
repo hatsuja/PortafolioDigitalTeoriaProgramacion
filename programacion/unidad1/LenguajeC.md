@@ -37,7 +37,7 @@ La función principal que es el (main) el cual es el punto de inicio de cualquie
 
 * ### Ejemplo
 
-```
+```c
 #include<stdio.h>
 int main(){
    //proceso
@@ -49,14 +49,14 @@ return 0;
 
 Por lo general para compilar se usa
 
-``` 
+```c 
  gcc .\hola_mundo.c -o hola_mundo 
 ```
 
 >El compilador traduce directamente el código a lenguaje máquina
 
 Y para ejecutar 
-``` 
+```c 
 .\hola_mundo.exe
 ```
 >El archivo corre directamente en el Sistema Operativo
@@ -164,7 +164,7 @@ Su estructura se divide en dos partes principales:
 
 ### Emjemplo
 
-```
+```c
 int edad = 20;
 printf("Hola, mi edad es %i años.\n", edad);
 ```
