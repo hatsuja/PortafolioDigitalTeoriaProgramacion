@@ -7,11 +7,6 @@
 >Es ideal para crear sistemas operativos, compiladores y software que requiera alta velocidad siendo un lenguaje compilado, lo que significa que el código fuente se traduce totalmente a lenguaje máquina antes de ejecutarse
 
 ---
-
->## Palabras reservadas en C
->>main, break, while, for, switch, continue, printf, scanf, define, etc.
-
----
 ## Estructura de un Programa en C
 
 * ### Archivo
@@ -81,6 +76,28 @@ Y para ejecutar
 >Variables: Son como "cajas" donde guardas información que puede cambiar mientras el programa corre
 
 >Constantes: Se usan para valores que deben permanecer fijos, como el valor de PI o un porcentaje de impuesto
+
+
+<div align="center">
+
+## El Tipo de Dato Cadena (Especial)
+
+| Propiedad | Descripción Detallada |
+| :--- | :--- |
+| **Estructura** | Se declaran como vectores de caracteres: `char nombre[30];` |
+| **Carácter Nulo** | Siempre terminan con el carácter `\0` para indicar el final del texto |
+| **Lectura Básica** | `scanf("%s", variable);` lee texto solo hasta el primer espacio en blanco |
+| **Lectura Completa** | `scanf("%[^\n]", variable);` permite leer frases con espacios incluidos |
+| **Máscara** | Se utiliza `%s` para mostrar o leer palabras. |
+| **Regla del &** | En las cadenas **no** se usa el símbolo `&` dentro del `scanf` |
+| **Memoria** | Debes reservar siempre un espacio extra para el carácter de fin de cadena (`\0`) |
+
+</div>
+
+---
+
+>## Palabras reservadas en C
+>>main, break, while, for, switch, continue, printf, scanf, define, etc.
 
 ---
 ## Operadores de Asignación Compuesta
