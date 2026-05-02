@@ -116,6 +116,7 @@ Un diagrama de flujo es la representación gráfica de un algoritmo y utiliza s�
 <p align="center">
   <img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/ffd8da73-efa1-419f-8856-33dbdfc9f2a9" />
 </p>
+
 ---
 
 # <p align="center">Elementos básicos de algoritmos y programas </p> 
