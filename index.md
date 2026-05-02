@@ -16,6 +16,12 @@ Este espacio contiene el desarrollo teórico y práctico
 * **[Lenguaje C](programacion/unidad1/LenguajeC.md):**
 >Sintaxis básica y aplicaciones del lenguaje C
 
+* **[Ejercicios](programacion/unidad1/EjercicosPracticos.md):**
+>Ejercios Realizados en la Unidad
+
+* **[Reflexción](programacion/unidad1/Reflexion.md):**
+>
+
 ### Unidad 2
 *   *(Próximamente)*
 
