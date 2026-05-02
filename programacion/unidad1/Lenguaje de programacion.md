@@ -5,6 +5,13 @@ Es un conjunto de símbolos y reglas que permiten escribir programas para que la
 
 ---
 
-## Clasificación de los Lenguajes
+## Clasificación de los Lenguajes de programacion
 
-<img width="973" height="462" alt="image" src="https://github.com/user-attachments/assets/01144119-6628-42c7-86f9-f05defb84494" />
+<div align="center">
+| Lenguaje | Características | Ejemplos / Notas |
+| :--- | :--- | :--- |
+| **Lenguaje Máquina** | Instrucciones directas al procesador. | Código binario ( `0` y `1` ). |
+| **Bajo Nivel (Assembler)** | Utiliza abreviaturas para representar instrucciones. | Mnemotécnicos como `ADD` o `DIV`. |
+| **Alto Nivel** | Diseñados para que las personas los entiendan fácilmente. | Palabras en inglés (ej. `C++`, `Java`, `Python` ). |
+| **Algorítmico** | Uso de lenguaje natural para describir procesos. | Español o Pseudocódigo. |
+</div>
