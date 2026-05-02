@@ -183,7 +183,7 @@ Su estructura se divide en dos partes principales:
 
 ### Ejemplo
 
-```
+```c
 float sueldo;
 printf("Ingrese su sueldo: ");
 scanf("%f", &sueldo); // El & es obligatorio para tipos básicos
