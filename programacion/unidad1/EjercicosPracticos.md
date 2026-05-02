@@ -126,3 +126,18 @@
 ---
 
 ## Ejercicios en C
+
+* Escribir un programa que lea un número entero y a continuación, visualice su doble y su triple.
+
+<img width="1028" height="912" alt="image" src="https://github.com/user-attachments/assets/c93ffbe2-6131-4e7e-ad1f-059b27deb9b9" />
+
+<div align="center">
+
+### Prueba de escritorio
+
+| Número Ingresado | Cálculo Doble ($x \times 2$) | Resultado Doble | Cálculo Triple ($x \times 3$) | Resultado Triple |
+| :---: | :---: | :---: | :---: | :---: |
+| 2 | $2 \times 2$ | 4 | $2 \times 3$ | 6 |
+
+</div>
+
