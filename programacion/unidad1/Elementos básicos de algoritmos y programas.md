@@ -66,8 +66,25 @@ Son los nombres que les damos a los objetos en un programa. `Deben empezar con u
 ## Prueba de escritorio
 La prueba de escritorio se utiliza para verificar si un algoritmo funciona correctamente 
 
-<div align="center"> Datos </div>
+### Ejemplo en PSeInt
 
+`Algoritmo CalcularAreaTriangulo
+	Definir base, altura, area Como Real
+	
+	Escribir "Por favor, ingresa la base del triángulo:"
+	Leer base
+	
+	Escribir "Ahora, ingresa la altura del triángulo:"
+	Leer altura
+	
+	// Realizamos el cálculo usando la fórmula estándar
+	area <- (base * altura) / 2
+	
+	Escribir "El área del triángulo es: ", area
+FinAlgoritmo`
+
+<div align="center"> Area de un triángulo </div>
+ Datos
 Altura=3
 
 Base=4
