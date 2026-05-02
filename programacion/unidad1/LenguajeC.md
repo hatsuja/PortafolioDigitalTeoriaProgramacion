@@ -96,4 +96,25 @@ Estos operadores permiten realizar una operación aritmética y asignar el resul
 
 </div>
 
+---
+
+## Máscaras  comunes
+
+<div align="center">
+
+| Máscara | Imprime / Descripción |
+| :---: | :--- |
+| `%i` | Un entero |
+| `%d` | Un entero |
+| `%c` | Un único carácter |
+| `%s` | Una cadena de caracteres |
+| `%(número)s` | Cadena limitada por un número (ej. `%5s` imprime los primeros 5 caracteres) |
+| `%%` | Imprime el símbolo de porcentaje `%` |
+| `%(n1).(n2)f` | Número decimal. `n1` es el tamaño total y `n2` los decimales (ej. `%6.2f`) |
+| `%g` | El dato se considera de tipo `float` |
+| `%f` | El dato se considera de tipo `float` |
+| `%lf` | El dato se considera de tipo `double` |
+| `%li` | El dato es un `long int` (rango más amplio que el `int` normal) |
+
+</div>
 
