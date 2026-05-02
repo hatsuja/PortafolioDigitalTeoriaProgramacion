@@ -84,8 +84,11 @@ FinAlgoritmo
 ### <div align="center"> Area de un triángulo </div>
 
 Datos
+
 Altura=3
+
 Base=4
+
 Area= 6
 
 $$A = \frac{b \times h}{2}$$
