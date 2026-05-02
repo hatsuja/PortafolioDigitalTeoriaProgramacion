@@ -38,6 +38,6 @@ Es un conjunto de símbolos y reglas que permiten escribir programas para que la
 
 ## Algoritmo vs Programa
 
-**Algoritmo:** Es el método o los pasos lógicos para resolver un problema (es independiente del lenguaje).  
+**Algoritmo:** Es el método o los pasos lógicos para resolver un problema (es independiente del lenguaje)
 
 **Programa:** Es la implementación real de ese algoritmo usando un lenguaje de programación específico
