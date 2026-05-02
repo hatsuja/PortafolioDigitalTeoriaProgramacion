@@ -124,8 +124,6 @@ Un diagrama de flujo es la representación gráfica de un algoritmo y utiliza s�
 ## Datos e información
 Un dato representa información  que la computadora procesa y almacena en su memoria
 
----
-
 ## Tipo de datos
 
 <div align="center">
