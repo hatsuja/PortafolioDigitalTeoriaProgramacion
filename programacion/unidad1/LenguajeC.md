@@ -123,11 +123,12 @@ Estos operadores permiten realizar una operación aritmética y asignar el resul
 ## Entrada y Salida de datos
 
 **Salida de Datos: printf()**
+
 La función printf (print formatted) sirve para enviar información a la salida estándar (normalmente el monitor)
 
-Su estructura se divide en dos partes principales:
+***Estructura:*** printf("Cadena de control", variable1, variable2, ...);
 
-**Estructura:** printf("Cadena de control", variable1, variable2, ...);
+Su estructura se divide en dos partes principales:
 
 > ***Cadena de control:*** Es el texto que quieres que aparezca, encerrado entre comillas dobles y dentro de ella se colocan las máscaras de formato y secuencias de escape como `\n` para un salto de línea
 
@@ -140,3 +141,14 @@ int edad = 20;
 printf("Hola, mi edad es %i años.\n", edad);
 ```
 
+## Entrada de Datos: scanf()
+
+La función scanf (scan formatted) permite que el programa se detenga y espere a que el usuario ingrese un valor por teclado
+
+***Estructura:*** scanf("Máscara de formato", &variable);
+
+Su estructura se divide en dos partes principales:
+
+> ***Máscara de formato:*** Indica qué tipo de dato estamos esperando (ej. %f para un decimal)
+
+> ***El Operador de Dirección (&):*** Este es el punto más crítico. En C, scanf no necesita el valor de la variable, sino saber en qué parte de la memoria está guardada para poder meter el nuevo dato ahí. El símbolo & le da esa dirección
