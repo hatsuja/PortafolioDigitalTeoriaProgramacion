@@ -1,20 +1,8 @@
-<img src="https://i.pinimg.com/originals/28/9e/49/289e49b2ff20cebf8c11343e54eb13ed.gif" width="300">
-<details>
-  <summary>Haz clic aquí para ver la solución</summary>
-  Aquí puedes poner el código en C, una tabla o cualquier explicación que quieras que esté oculta al principio.
-</details>
-+ Este texto se verá en color verde.
-<u>Este texto estará subrayado</u>
+Reflexión critica 
 
-X<sup>2</sup>
-H<sub>2</sub>O
+Durante el desarrollo practico, la principal dificultad fue el pensamiento lógico y la utilización de varias librerías en C además de utilizar fórmulas matemáticas que las tenias olvidadas pero comprendí que un algoritmo no es solo una serie de pasos, sino una estructura que requiere un análisis y un comentario sobre este aprendizaje es que el dominio de las estructuras secuenciales constituye la base fundamental de la ingeniería de software ya que sin una comprensión sólida de cómo se transforman las entradas en salidas, es imposible realizar problemas de mayor complejidad
 
-<table>
-  <tr>
-    <th colspan="2">Encabezado que ocupa dos columnas</th>
-  </tr>
-  <tr>
-    <td>Dato 1</td>
-    <td>Dato 2</td>
-  </tr>
-</table>
+Declaración de uso de Inteligencia Artificial Generativa
+En la elaboración de este Portafolio Digital de Aprendizaje, se empleó la herramienta de Inteligencia Artificial Generativa Gemini de Google como recurso de apoyo y tutor de acompañamiento
+Declaro que la redacción  críticas han sido supervisados, validados y personalizados por mi persona
+
