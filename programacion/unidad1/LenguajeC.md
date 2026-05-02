@@ -21,7 +21,7 @@ las bibliotecas las cuales se usan para incluir funciones externas
 
 >#include <time.h>
 
-La función principal el (main) el cual es el punto de inicio de cualquier programa en C y odo el código que se ejecuta va dentro de llaves { }
+La función principal que es el (main) el cual es el punto de inicio de cualquier programa en C y odo el código que se ejecuta va dentro de llaves { }
 
 ### Ejemplo
 
@@ -32,8 +32,14 @@ int main(){
 return 0;
 } 
 ```
-Por lo general se complicar se usa 
+Por lo general para complicar se usa 
 ``` 
 gcc .\hola_mundo.c -o hola_mundo
 ```
-El compilador traduce directamente el código a lenguaje máquina
+>El compilador traduce directamente el código a lenguaje máquina
+
+Y para ejecutar 
+``` 
+.\hola_mundo.exe
+```
+>El archivo corre directamente en el Sistema Operativo
