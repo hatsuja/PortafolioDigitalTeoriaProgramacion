@@ -43,10 +43,14 @@ return 0;
 
 * ### Compilacion y ejecución
 
-Por lo general para complicar se usa 
+Por lo general para complicar se usa
+
+<p align="center">
 ``` 
 gcc .\hola_mundo.c -o hola_mundo
 ```
+C</p>
+
 >El compilador traduce directamente el código a lenguaje máquina
 
 Y para ejecutar 
