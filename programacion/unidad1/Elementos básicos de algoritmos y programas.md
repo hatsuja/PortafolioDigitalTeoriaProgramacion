@@ -63,12 +63,11 @@ Son los nombres que les damos a los objetos en un programa. `Deben empezar con u
 
 ---
 
-#### Prueba de escritorio
+## Prueba de escritorio
 La prueba de escritorio se utiliza para verificar si un algoritmo funciona correctamente 
 
-Area de un triangulo
+<div align="center"> Datos </div>
 
-Datos 
 Altura=3
 
 Base=4
@@ -78,11 +77,9 @@ Area= 6
 $$A = \frac{b \times h}{2}$$
 <div align="center">
 
-| Base | Altura | promedio |
+| Base | Altura | Area |
 | :--- | :--- | :--- |
 | 4| 6| $$A = \frac{4 \times 3}{2}$$ = 6| 
-
-
 
 </div>
 
