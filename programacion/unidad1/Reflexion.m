@@ -1,2 +1,1 @@
-
-![Descripción de la imagen](https://www.pinterest.com/pin/549298485826983340/)
+<img src="https://www.pinterest.com/pin/4222193393199052/" width="300">
