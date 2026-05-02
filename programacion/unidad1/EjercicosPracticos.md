@@ -84,7 +84,7 @@
 
 ---
 
-*Un productor de leche lleva el registro de lo que produce en litros, pero cuando entrega le pagan en galones. Realice un algoritmo que ayude al productor a saber cuánto recibirá por la entrega de su producción de un día (1 galón = 3.785 litros).
+* Un productor de leche lleva el registro de lo que produce en litros, pero cuando entrega le pagan en galones. Realice un algoritmo que ayude al productor a saber cuánto recibirá por la entrega de su producción de un día (1 galón = 3.785 litros).
 
 <img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/44a21c36-4f1c-4d87-ac91-a392563a635e" />
 
@@ -215,7 +215,7 @@
 
 ---
 
-*Realice un programa que descomponga un número ingresado por el usuario en su parte entera y decimal.
+* Realice un programa que descomponga un número ingresado por el usuario en su parte entera y decimal.
 
 <img width="1039" height="893" alt="image" src="https://github.com/user-attachments/assets/e3f21f3a-d056-41e9-8463-1d455d74bf58" />
 
