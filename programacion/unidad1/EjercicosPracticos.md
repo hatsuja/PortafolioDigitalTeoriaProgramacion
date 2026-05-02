@@ -158,3 +158,22 @@
 
 </div>
 
+---
+
+* Realice un programa que tomado una cantidad expresada en metros lo transforme a su equivalente en kilómetros, centímetros y milímetros.
+
+<img width="995" height="883" alt="image" src="https://github.com/user-attachments/assets/14444bbd-6bea-4af3-9591-885f80ed969a" />
+
+<div align="center">
+
+### Prueba de escritorio
+
+| Metros | Kilómetros ($\div 1000$) | Centímetros ($\times 100$) | Milímetros ($\times 1000$) |
+| :---: | :---: | :---: | :---: |
+| 5 | 0.005 km | 500 cm | 5000 mm |
+
+</div>
+
+---
+
+
