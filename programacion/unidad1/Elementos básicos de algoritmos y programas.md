@@ -69,19 +69,19 @@ La prueba de escritorio se utiliza para verificar si un algoritmo funciona corre
 ### Ejemplo en PSeInt
 
 `Algoritmo CalcularAreaTriangulo
-	Definir base, altura, area Como Real
+	Definir base, altura, area Como Real`
 	
-	Escribir "Por favor, ingresa la base del triángulo:"
+	Escribir "Ingresa la base del triángulo:"
 	Leer base
 	
-	Escribir "Ahora, ingresa la altura del triángulo:"
+	Escribir "Ingresa la altura del triángulo:"
 	Leer altura
 	
 	// Realizamos el cálculo usando la fórmula estándar
 	area <- (base * altura) / 2
 	
 	Escribir "El área del triángulo es: ", area
-FinAlgoritmo`
+`FinAlgoritmo`
 
 <div align="center"> Area de un triángulo </div>
  Datos
