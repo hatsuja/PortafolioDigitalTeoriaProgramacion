@@ -3,3 +3,4 @@
   <summary>Haz clic aquí para ver la solución</summary>
   Aquí puedes poner el código en C, una tabla o cualquier explicación que quieras que esté oculta al principio.
 </details>
++ Este texto se verá en color verde.
