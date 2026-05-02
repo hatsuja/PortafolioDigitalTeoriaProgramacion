@@ -118,3 +118,25 @@ Estos operadores permiten realizar una operación aritmética y asignar el resul
 
 </div>
 
+---
+
+## Entrada y Salida de datos
+
+**Salida de Datos: printf()**
+La función printf (print formatted) sirve para enviar información a la salida estándar (normalmente el monitor)
+
+Su estructura se divide en dos partes principales:
+
+**Estructura:** printf("Cadena de control", variable1, variable2, ...);
+
+> ***Cadena de control:*** Es el texto que quieres que aparezca, encerrado entre comillas dobles y dentro de ella se colocan las máscaras de formato y secuencias de escape como `\n` para un salto de línea
+
+> ***Variables:*** Son los valores que sustituirán a las máscaras en el orden en que aparezcan
+
+### Emjemplo
+
+```
+int edad = 20;
+printf("Hola, mi edad es %i años.\n", edad);
+```
+
