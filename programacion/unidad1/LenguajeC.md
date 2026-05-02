@@ -77,3 +77,23 @@ Y para ejecutar
 
 >Constantes: Se usan para valores que deben permanecer fijos, como el valor de PI o un porcentaje de impuesto
 
+---
+## Operadores de Asignación Compuesta
+
+<div align="center">
+
+###
+Estos operadores permiten realizar una operación aritmética y asignar el resultado a la misma variable de forma abreviada:
+
+| Operador | Ejemplo | Equivalencia | Descripción |
+| :--- | :---: | :---: | :--- |
+| **Básico** | `c = a + b;` | N/A | Asigna a `c` el resultado de la suma |
+| **Suma** | `a += b;` | `a = a + b;` | Suma `b` al valor actual de `a` |
+| **Resta** | `a -= b;` | `a = a - b;` | Resta `b` al valor actual de `a` |
+| **Multiplicación** | `a *= b;` | `a = a * b;` | Multiplica `a` por `b` |
+| **División** | `a /= b;` | `a = a / b;` | Divide `a` entre `b`|
+| **Módulo** | `a %= b;` | `a = a % b;` | Asigna el residuo de la división |
+
+</div>
+
+
