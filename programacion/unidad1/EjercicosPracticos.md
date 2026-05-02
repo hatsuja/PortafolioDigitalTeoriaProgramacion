@@ -2,10 +2,15 @@
 ## Ejercicios en PSeInt
 
 ---
+<details>
+  <summary>Lista de ejercicios</summary>
+  Aquí puedes poner el código en C, una tabla o cualquier explicación que quieras que esté oculta al principio.
 
 📂 [Presentación de la Unidad y ejercisios](https://docs.google.com/presentation/d/1BXscIc91qjwGZLx_u-s0uHTUoemnmcoF/edit?slide=id.g381e014a9bd_0_148#slide=id.g381e014a9bd_0_148)
----
 
+</details>
+
+---
 
 * Un almacén requiere determinar cuánto cobrar por trabajos de pintura. Considere que se cobra por m2. Realice el algoritmo que le permita ir generando presupuestos para cada cliente.
 <img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/b729d8f5-dfaa-4d7a-9a51-1b11dc6288ce" />
