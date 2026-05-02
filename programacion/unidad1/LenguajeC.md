@@ -9,11 +9,11 @@
 ---
 ## Estructura de un Programa en C
 
-#### Archivo
+* ### Archivo
 
 El código se guarda en archivos con extensión `.c`
 
-### Bibliotecas
+* ### Bibliotecas
 
 las bibliotecas las cuales se usan para incluir funciones externas
 
@@ -27,11 +27,11 @@ las bibliotecas las cuales se usan para incluir funciones externas
 
 >#include <time.h>
 
-### Función principal
+* ### Función principal
 
 La función principal que es el (main) el cual es el punto de inicio de cualquier programa en C y odo el código que se ejecuta va dentro de llaves { }
 
-### Ejemplo
+** ### Ejemplo
 
 ```
 #include<stdio.h>
@@ -41,7 +41,7 @@ return 0;
 } 
 ```
 
-### Compilacion y ejecución
+* ### Compilacion y ejecución
 
 Por lo general para complicar se usa 
 ``` 
