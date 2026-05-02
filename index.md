@@ -23,4 +23,4 @@ Este espacio contiene el desarrollo teórico y práctico
 *   *(Próximamente)* 
 
 ---
-**Formato:** Basado en estándares IEEE para documentación técnica.
+
