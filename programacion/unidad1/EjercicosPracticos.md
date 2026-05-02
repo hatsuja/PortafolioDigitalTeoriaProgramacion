@@ -289,3 +289,22 @@
 | **TOTAL** | **8** | | | **$165.00** |
 
 </div>
+
+---
+
+# Ejercicio con estructura secuencial
+
+
+## Ejercicio: Cálculo de Total de Compra con IVA1. 
+
+## Planteamiento del problema
+>Un cliente realiza la compra de un producto en un local comercial. Se requiere un programa que solicite el precio unitario del producto y la cantidad comprada, para luego calcular el subtotal, el valor del IVA (15%) y el total final a pagar.
+## Análisis del problema
+* Entradas: Precio del producto (real), Cantidad (entero)
+* Procesos:
+    * $Subtotal = Precio \times
+    * Cantidad$$IVA = Subtotal \times 0.15$$
+    * Total = Subtotal + IVA$
+    * Salidas: Subtotal, IVA y Total a pagar
+
+
