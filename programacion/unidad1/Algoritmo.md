@@ -1,18 +1,18 @@
 # <p align="center">Algoritmo</p>
 
 ## ¿Qué es un algoritmo?
-Un algoritmo es básicamente una receta o una lista de pasos que seguimos para resolver un problema o completar una tarea.
+Un algoritmo es básicamente una receta o una lista de pasos que seguimos para resolver un problema o completar una tarea
 
 >**Por ejemplo, preparar un café:**
->>1. Pones agua a hervir.
->>2. Colocas el café en el filtro.
->>3. Viertes el agua caliente.
->>4. Sirves en una taza.
+>>1. Pones agua a hervir
+>>2. Colocas el café en el filtro
+>>3. Viertes el agua caliente
+>>4. Sirves en una taza
 
 ### Características principales:
-* **Es ordenado:** Los pasos van uno tras otro.
-* **Es preciso:** Cada paso es claro y no da lugar a dudas.
-* **Tiene un final:** La tarea se termina.
+* **Es ordenado:** Los pasos van uno tras otro
+* **Es preciso:** Cada paso es claro y no da lugar a dudas
+* **Tiene un final:** La tarea se termina
 
 ---
 
