@@ -129,7 +129,8 @@
 
 * Escribir un programa que lea un número entero y a continuación, visualice su doble y su triple.
 
-<img width="1028" height="912" alt="image" src="https://github.com/user-attachments/assets/c93ffbe2-6131-4e7e-ad1f-059b27deb9b9" />
+<img width="1019" height="848" alt="image" src="https://github.com/user-attachments/assets/8d0bf9cf-90ab-4a7d-8f4f-2b0f83ddf278" />
+
 
 <div align="center">
 
