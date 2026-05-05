@@ -11,17 +11,3 @@ Durante el desarrollo practico, la principal dificultad fue el pensamiento lógi
 >  El dominio de las estructuras secuenciales constituye la base fundamental de la ingeniería de software ya que sin una comprensión sólida de cómo se transforman las entradas en salidas, es imposible realizar problemas de mayor complejidad
 
 ---
-
-<h2 align="center"> 🤖 Declaración de uso de Inteligencia Artificial Generativa </h2>
-
-<div align="center">
-
-En la elaboración de este **Portafolio Digital de Aprendizaje**, se empleó la herramienta de Inteligencia Artificial Generativa **Gemini de Google** como recurso de apoyo y tutor de acompañamiento. 
-
-*Declaro que la redacción y críticas han sido supervisados, validados y personalizados por mi persona.*
-
-</div>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Validado%20por-Hatsu-orange?style=flat-square" alt="Validado">
-</p>
