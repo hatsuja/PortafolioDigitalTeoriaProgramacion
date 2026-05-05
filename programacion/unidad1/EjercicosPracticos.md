@@ -322,9 +322,11 @@
 
 ## 4. Codificación (código fuente)
 
-<img width="1064" height="906" alt="image" src="https://github.com/user-attachments/assets/b5529b7d-1c5d-4033-ba9b-9ded01d52316" />
+<img width="606" height="574" alt="image" src="https://github.com/user-attachments/assets/73a82d52-c9d8-4e68-a150-767dc568de1d" />
 
-## 5. ● Validación (prueba de escritorio)
+## 5. Validación (prueba de escritorio)
+
+<img width="1030" height="241" alt="image" src="https://github.com/user-attachments/assets/938c7902-14f7-4af6-b2c9-3fcc16b7ed33" />
 
 <div align="center">
 
