@@ -312,7 +312,7 @@
     * Subtotal = Precio x Cantidad
     * IVA = Subtotal x 0.15
     * Total = Subtotal + IVA
-    * Salidas: Subtotal, IVA y Total a pagar
+* Salidas: Subtotal, IVA y Total a pagar
 
 ## 3. Diseño del algoritmo y Diagrama de flujo </div>
 
