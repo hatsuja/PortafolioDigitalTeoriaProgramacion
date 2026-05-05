@@ -34,7 +34,9 @@ Para facilitar la navegación, los contenidos se encuentran organizados de la si
 ---
 
 ## 🤖 Declaración de Uso de IA Generativa
+
 En cumplimiento con los lineamientos de la actividad, se declara el uso de herramientas de Inteligencia Artificial (específicamente **Gemini de Google**)  como ayundante tutor sobre uso de Formato IEEE y ayundate de ideas 
+
 ---
 
 ## 📚 Bibliografía 
