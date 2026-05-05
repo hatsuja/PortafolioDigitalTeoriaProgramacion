@@ -304,9 +304,9 @@
 
 ## Ejercicio: Cálculo de Total de Compra con IVA1. 
 
-## Planteamiento del problema
+## 1. Planteamiento del problema
 >Un cliente realiza la compra de un producto en un local comercial. Se requiere un programa que solicite el precio unitario del producto y la cantidad comprada, para luego calcular el subtotal, el valor del IVA (15%) y el total final a pagar.
-## Análisis del problema
+## 2. Análisis del problema
 * Entradas: Precio del producto (real), Cantidad (entero)
 * Procesos:
     * Subtotal = Precio x Cantidad
@@ -314,19 +314,19 @@
     * Total = Subtotal + IVA
     * Salidas: Subtotal, IVA y Total a pagar
 
-# 3. Diseño del algoritmo y Diagrama de flujo </div>
+## 3. Diseño del algoritmo y Diagrama de flujo </div>
 
 >Pseudocódigo (Estilo PSeInt):
 
 <img width="1919" height="975" alt="image" src="https://github.com/user-attachments/assets/92024acc-ae20-44cf-b5a1-26b54728aacb" />
 
-# Lenguaje C
+## 4. Codificación (código fuente)
 
 <img width="1064" height="906" alt="image" src="https://github.com/user-attachments/assets/b5529b7d-1c5d-4033-ba9b-9ded01d52316" />
 
-<div align="center">
+## 5. ● Validación (prueba de escritorio)
 
-### Prueba de escritorio
+<div align="center">
 
 | Precio | Cantidad | Subtotal ($P \times C$) | IVA (15%) | Total |
 | :---: | :---: | :---: | :---: | :---: |
