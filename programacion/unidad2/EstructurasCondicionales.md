@@ -24,7 +24,7 @@ En el ámbito del desarrollo de software, estas estructuras dotan a los algoritm
 Evalúa una única condición lógica ya que si esta se cumple es verdadera, el programa ingresa y procesa las instrucciones delimitadas en su interior. En caso de que la condición no se cumpla seria falsa y el bloque interno es completamente ignorado y el compilador continúa con la ejecución lineal de la siguiente línea de código externa.
 </p>
 
-### Pseudocódigo: Estructura Condicional Simple
+### Pseudocódigo:
 ```C
 Si (condicion_logica) Entonces
     // Bloque de instrucciones a ejecutar si la condición es Verdadera
@@ -32,8 +32,9 @@ FinSi
 ```
 ### Diagrama de flujo
 
+<div align="center">
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/2ad3813f-c34e-4a2a-aa52-a8d45b4710b6" />
-
+</div>
 
 ### B. Estructuras condicionales dobles (`if else`)
 <p align="justify">
