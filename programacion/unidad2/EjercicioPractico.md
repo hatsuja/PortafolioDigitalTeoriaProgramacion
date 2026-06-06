@@ -6,7 +6,7 @@
 ## 3.1 Planteamiento del Problema
 
 <p align="justify">
-Se requiere diseñar e implementar un programa en lenguaje C para la Universidad Nacional de Loja que permita gestionar el registro y procesamiento de las calificaciones académicas de un número indeterminado de estudiantes. El programa debe solicitar inicialmente la cantidad total de alumnos a evaluar y, de forma iterativa, recopilar las notas correspondientes a los cuatro componentes del modelo educativo vigente: <b>ACD</b> (Aprendizaje en Contacto con el Docente), <b>AA</b> (Aprendizaje Autónomo), <b>APE</b> (Aprendizaje Práctico Experimental) y <b>ES</b> (Examen de Fin de Ciclo).
+Se requiere un programa que permita gestionar el registro y procesamiento de las calificaciones académicas de un número indeterminado de estudiantes. El programa debe solicitar inicialmente la cantidad total de alumnos a evaluar y, de forma iterativa, recopilar las notas correspondientes a los cuatro componentes del modelo educativo vigente: <b>ACD</b> (Aprendizaje en Contacto con el Docente), <b>AA</b> (Aprendizaje Autónomo), <b>APE</b> (Aprendizaje Práctico Experimental) y <b>ES</b> (Examen de Fin de Ciclo).
 </p>
 
 <p align="justify">
