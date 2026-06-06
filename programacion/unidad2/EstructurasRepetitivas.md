@@ -1,11 +1,6 @@
 
-<br>
----
+# <div align="center">Estructuras Repetitivas</div>
 
-# <div align="center">2. Estructuras Repetitivas</div>
----
-
-<br>
 
 ## 2.1 ¿Qué son las Estructuras Repetitivas?
 
