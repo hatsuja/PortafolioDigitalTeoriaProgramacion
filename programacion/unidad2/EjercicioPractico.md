@@ -1,193 +1,144 @@
+# <div align="center">Evidencia Práctica Aplicada</div>
+## <div align="center">Estructuras de Control Combinadas en Lenguaje C</div>
 
-# <div align="center">Ejercicio Practico</div>
-
----
-
-## 3.1 Planteamiento del Problema
-
-<p align="justify">
-Se requiere un programa que permita gestionar el registro y procesamiento de las calificaciones académicas de un número indeterminado de estudiantes. El programa debe solicitar inicialmente la cantidad total de alumnos a evaluar y, de forma iterativa, recopilar las notas correspondientes a los cuatro componentes del modelo educativo vigente: <b>ACD</b> (Aprendizaje en Contacto con el Docente), <b>AA</b> (Aprendizaje Autónomo), <b>APE</b> (Aprendizaje Práctico Experimental) y <b>ES</b> (Examen de Fin de Ciclo).
-</p>
-
-<p align="justify">
-Para garantizar la integridad y robustez de la aplicación, se deben incorporar mecanismos de validación que impidan el ingreso de valores incoherentes (la cantidad de estudiantes debe ser estrictamente mayor a 0 y todas las calificaciones individuales deben situarse obligatoriamente en el rango cerrado de 0 a 10 puntos). Una vez recopilados los datos válidos, el algoritmo debe calcular el aporte ponderado de cada nota según su peso porcentual, computar la Nota Final de cada alumno y determinar su equivalencia cualitativa mediante la siguiente escala académica institucional:
-</p>
-
-<ul>
-    <li>Nota Final menor a 5.00: <b>Deficiente</b></li>
-    <li>Nota Final entre 5.00 y menor a 7.00: <b>Regular</b></li>
-    <li>Nota Final entre 7.00 y menor a 9.00: <b>Buena</b></li>
-    <li>Nota Final entre 9.00 y 10.00: <b>Excelente</b></li>
-</ul>
+<br>
 
 ---
 
-## 3.2 Análisis del Problema
-
-<p align="justify">
-Para estructurar la solución lógica de manera eficiente, se desglosa el comportamiento del sistema mediante una matriz de análisis técnico que define las entradas requeridas, las operaciones de procesamiento y las salidas esperadas:
-</p>
-
-<table align="center" border="1" cellpadding="8" style="border-collapse: collapse; width: 100%; max-width: 850px; background-color: #ffffff;">
-    <thead>
-        <tr style="background-color: #4A148C; color: #ffffff; text-align: center;">
-            <th style="width: 30%;">Datos de Entrada</th>
-            <th style="width: 40%;">Procesamiento / Fórmulas</th>
-            <th style="width: 30%;">Datos de Salida</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td align="left" valign="top">
-                <b>Variables Cuantitativas:</b><br>
-                <ul>
-                    <li><code>est</code>: Cantidad total de estudiantes (Entero).</li>
-                    <li><code>acd</code>: Nota del componente docente (Real, 0-10).</li>
-                    <li><code>aa</code>: Nota del componente autónomo (Real, 0-10).</li>
-                    <li><code>ape</code>: Nota del componente práctico (Real, 0-10).</li>
-                    <li><code>es</code>: Nota del examen de fin de ciclo (Real, 0-10).</li>
-                </ul>
-            </td>
-            <td align="left" valign="top">
-                <b>1. Validación de Rangos:</b><br>
-                • Asegurar <code>est > 0</code> mediante bucle <code>do-while</code>.<br>
-                • Asegurar <code>nota >= 0 y nota <= 10</code> para cada componente académico.<br><br>
-                <b>2. Cálculo de Ponderados Individuales:</b><br>
-                • <code>acd = acd * 2.0</code> (Aporta 20% / 2 pts)<br>
-                • <code>aa = aa * 2.0</code> (Aporta 20% / 2 pts)<br>
-                • <code>ape = ape * 2.5</code> (Aporta 25% / 2.5 pts)<br>
-                • <code>es = es * 3.5</code> (Aporta 35% / 3.5 pts)<br><br>
-                <b>3. Cálculo de la Nota Final (Base 10):</b><br>
-                • <code>nf = (acd + aa + ape + es) / 10.0</code><br><br>
-                <b>4. Evaluación Cualitativa:</b><br>
-                • Clasificación mediante condicionales anidadas (<code>if - else if - else</code>).
-            </td>
-            <td align="left" valign="top">
-                <b>Resultados por Estudiante:</b><br>
-                <ul>
-                    <li>Identificador del estudiante en curso (<code>i</code>).</li>
-                    <li>Valores individuales calculados para los ponderados ACD, AA, APE y ES.</li>
-                    <li>Nota Final numérica ponderada (<code>nf</code>) formateada a dos decimales.</li>
-                    <li>Categoría textual descriptiva del rendimiento alcanzado.</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
+# <div align="center">Ejercicio Práctico: Simulador de Caja Registradora con Límite de Presupuesto</div>
 
 ---
 
-## 3.3 Codificación en Lenguaje C
+<br>
+
+## 📝 1. Planteamiento del Problema
 
 <p align="justify">
-A continuación, se presenta la implementación del código fuente completamente depurado, funcional y estructurado bajo las directrices académicas solicitadas:
+Un usuario desea realizar las compras del día en un supermercado local, pero cuenta con un presupuesto económico estrictamente limitado (por ejemplo, $30.00). Para evitar quedarse sin fondos al momento de llegar a la caja general, se requiere el diseño de un programa informático en lenguaje C que simule una caja registradora portátil de control personal.
+</p>
+
+<p align="justify">
+El algoritmo debe iniciar solicitando de forma obligatoria el ingreso del presupuesto total disponible. Posteriormente, mediante un ciclo iterativo, el usuario irá registrando secuencialmente el precio de cada producto que introduce en su carrito de compras.
+</p>
+
+**Reglas de negocio y restricciones basadas en condiciones:**
+* **Validación inicial:** El presupuesto ingresado al principio por el usuario debe ser un valor real estrictamente mayor a cero ($> 0$).
+* **Validación de productos:** El precio de cada artículo individual no puede ser una cantidad negativa ($\ge 0$). Si se detecta un valor erróneo, el programa debe obligar a reingresar el precio de forma persistente sin afectar el acumulador actual.
+* **Control de límite financiero:** Antes de sumar formalmente el costo de un nuevo producto al carrito, el sistema debe evaluar mediante una estructura condicional si dicha adición provocará que el gasto total acumulado exceda el presupuesto disponible. 
+  * Si el precio del producto hace que se supere el dinero disponible, el sistema debe denegar el ingreso del artículo, emitir una alerta textual de **"Presupuesto Excedido"** e interrumpir inmediatamente la ejecución del bucle.
+* **Criterio de finalización alternativa:** El proceso de compra repetitivo puede terminar de forma normal si el usuario digita un precio equivalente a `0`, lo cual indica que ha finalizado voluntariamente su selección de productos antes de agotar su dinero.
+
+<p align="justify">
+Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o por decisión del comprador), el programa debe imprimir en pantalla un informe detallado con el total neto final gastado y el saldo sobrante exacto que le queda en su billetera.
+</p>
+
+---
+
+## 📊 2. Análisis del Problema
+
+<p align="justify">
+Para estructurar la solución algorítmica de forma lógica, se definen los siguientes componentes de datos, variables y operaciones de control:
+</p>
+
+* **Datos de Entrada:**
+  * `float presupuesto`: Dinero total inicial con el que cuenta el usuario para comprar (Debe ser $> 0$).
+  * `float precio_producto`: Costo individual de cada artículo que se desea agregar (Debe ser $\ge 0$).
+
+* **Procesos Lógicos y Matemáticos:**
+  * **Filtros de Validación:** Uso de bucles post-prueba (`do-while`) para controlar que el presupuesto inicial no sea cero ni negativo.
+  * **Control de Iteración Dinámica:** Uso de un bucle `while` controlado por una bandera lógica o por la condición implícita de que el gasto actual se mantenga por debajo del límite.
+  * **Evaluación de Restricción Condicional (Estructura Selectiva):**
+    * Si `(gasto_acumulado + precio_producto) > presupuesto` $\rightarrow$ El sistema activa la alerta, rechaza el producto y rompe el bucle utilizando la instrucción `break`.
+    * Sino $\rightarrow$ El sistema acepta el artículo y actualiza las cuentas: `gasto_acumulado = gasto_acumulado + precio_producto`.
+  * **Cálculo del Remanente:** `saldo_restante = presupuesto - gasto_acumulado`.
+
+* **Datos de Salida:**
+  * Mensajes informativos interactivos por cada producto aceptado (Muestra el gasto parcial acumulado).
+  * Reporte financiero final: Monto total invertido en el supermercado y el vuelto o dinero sobrante.
+
+---
+
+## 💻 3. Código Fuente en Lenguaje C
+
+<p align="justify">
+A continuación, se detalla el código de programación funcional, optimizado y rigurosamente documentado con comentarios técnicos en cada bloque operativo:
 </p>
 
 ```c
 #include <stdio.h>
 
 int main() {
-    // Declaración de variables para almacenar calificaciones y nota final
-    float acd, aa, ape, es, nf;
-    // Variables de control: cantidad total de estudiantes y contador del bucle
-    int est, i;
-    
-    // ==========================================
+    // Declaracion de variables financieras de tipo punto flotante
+    float presupuesto, precio_producto;
+    float gasto_acumulado = 0.0; // Inicializacion obligatoria del acumulador
+    float saldo_restante = 0.0;
+
+    printf("=== SIMULADOR DE CAJA REGISTRADORA (LIMITE DE PRESUPUESTO) ===\n\n");
+
+    // =========================================================================
     // GESTIÓN DE ENTRADA Y VALIDACIÓN INICIAL
-    // ==========================================
-    // Bucle do-while para asegurar que la cantidad de estudiantes sea válida
+    // =========================================================================
+    // Asegura que el usuario ingrese un capital inicial valido para la compra
     do {
-        printf("Ingresa el numero de estudiantes: ");
-        scanf("%i", &est);
-        // Validación: el número de estudiantes debe ser estrictamente mayor a cero
-        if (est <= 0) {
-            printf("Error, el numero debe ser mayor a 0.\n");
+        printf("Ingrese su presupuesto total disponible ($): ");
+        scanf("%f", &presupuesto);
+        if (presupuesto <= 0) {
+            printf("[ERROR]: El presupuesto debe ser un monto mayor a 0.\n\n");
         }
-    } while (est <= 0); // Repetir si el dato ingresado es incorrecto
-    
-    // ==========================================
-    // ESTRUCTURA REPETITIVA PRINCIPAL (CICLO FOR)
-    // ==========================================
-    // Procesa de forma iterativa las calificaciones de cada estudiante individualmente
-    for (i = 1; i <= est; i++) {
+    } while (presupuesto <= 0);
+
+    printf("\n* Instruccion: Ingrese el precio de los productos de 1 en 1.");
+    printf("\n* Digite '0' en cualquier momento para finalizar las compras.\n");
+    printf("-----------------------------------------------------------------\n");
+
+    // =========================================================================
+    // ESTRUCTURA REPETITIVA: Ciclo continuo de facturacion de productos
+    // =========================================================================
+    while (gasto_acumulado < presupuesto) {
         
-        // --- Validación y lectura del componente ACD ---
+        // Bucle do-while interno para evitar el ingreso de precios negativos
         do {
-            printf("Ingrese la nota ACD del estudiante %i: ", i);
-            scanf("%f", &acd);
-            // Validar que la nota se encuentre en el rango permitido de 0 a 10
-            if (acd < 0 || acd > 10) {
-                 printf("Error no esta el rango (0-10).\n");
+            printf("\n -> Ingrese el precio del producto ($): ");
+            scanf("%f", &precio_producto);
+            if (precio_producto < 0) {
+                printf("    [ERROR]: El precio de un producto no puede ser negativo.\n");
             }
-        } while (acd < 0 || acd > 10); // Re solicita la nota hasta que sea correcta
-        
-        // --- Validación y lectura del componente AA ---
-        do {
-            printf("Ingrese la nota AA del estudiante %i: ", i);
-            scanf("%f", &aa);
-            // Validar que la nota se encuentre en el rango permitido de 0 a 10
-            if (aa < 0 || aa > 10){ 
-                 printf("Error no esta el rango (0-10).\n");
-             }        
-        } while (aa < 0 || aa > 10); // Re solicita la nota hasta que sea correcta
-        
-        // --- Validación y lectura del componente APE ---
-        do {
-            printf("Ingrese la nota APE del estudiante %i: ", i);
-            scanf("%f", &ape);
-            // Validar que la nota se encuentre en el rango permitido de 0 a 10
-            if (ape < 0 || ape > 10){
-                printf("Error no esta el rango (0-10).\n");
-            }
-        } while (ape < 0 || ape > 10); // Re solicita la nota hasta que sea correcta
-        
-        // --- Validación y lectura del componente ES ---
-        do {
-            printf("Ingrese la nota ES del estudiante %i: ", i);
-            scanf("%f", &es);
-            // Validar que la nota se encuentre en el rango permitido de 0 a 10
-            if (es < 0 || es > 10){
-                printf("Error no esta el rango (0-10).\n");
-            }
-        } while (es < 0 || es > 10); // Re solicita la nota hasta que sea correcta
-        
-        // ==========================================
-        // PROCESAMIENTO Y CÁLCULO DE PONDERADOS
-        // ==========================================
-        acd = acd * 2;     // Cálculo del aporte correspondiente al 20% de la nota final
-        aa = aa * 2;       // Cálculo del aporte correspondiente al 20% de la nota final
-        ape = ape * 2.5;   // Cálculo del aporte correspondiente al 25% de la nota final
-        es = es * 3.5;     // Cálculo del aporte correspondiente al 35% de la nota final
-        
-        // Cálculo general de la Nota Final (nf) promediada sobre 10 puntos
-        nf = (acd + aa + ape + es) / 10;
-        
-        // ==========================================
-        // PRESENTACIÓN DE RESULTADOS (SALIDA)
-        // ==========================================
-        printf("\nResultados del estudiante %i:\n", i);
-        printf("  El ponderado de nota ACD es: %.2f\n", acd);
-        printf("  El ponderado de tu nota AA es: %.2f\n", aa);
-        printf("  El ponderado de tu nota APE es: %.2f\n", ape);
-        printf("  El ponderado de tu nota ES es: %.2f\n", es);
-        
-        // Estructuras condicionales anidadas para determinar la cualidad cualitativa de la nota
-        if (nf < 5) {
-            // Condición para rendimiento Deficiente
-            printf("  La nota es deficiente tiene %.2f\n", nf);
-        } else if (nf >= 5 && nf < 7) {
-            // Condición para rendimiento Regular
-            printf("  La nota es regular tiene %.2f\n", nf);
-        } else if (nf >= 7 && nf < 9) {
-            // Condición para rendimiento Bueno
-            printf("  La nota es buena tiene %.2f\n", nf);
+        } while (precio_producto < 0);
+
+        // Condicion de salida voluntaria: Si el usuario ingresa 0, finaliza el ciclo
+        if (precio_producto == 0) {
+            printf(" > Proceso finalizado por eleccion del usuario.\n");
+            break; // Rompe el bucle while de forma inmediata
+        }
+
+        // =========================================================================
+        // ESTRUCTURA CONDICIONAL: Evaluacion preventiva del limite presupuestario
+        // =========================================================================
+        if ((gasto_acumulado + precio_producto) > presupuesto) {
+            // Caso donde el producto excede el capital disponible
+            printf("\n [ALERTA - PRESUPUESTO EXCEDIDO]: El producto de $%.2f no se puede agregar.\n", precio_producto);
+            printf(" Compra detenida automaticamente para evitar deudas.\n");
+            break; // Interrupcion forzada del bucle por falta de fondos
         } else {
-            // Condición por descarte para rendimiento Excelente (entre 9 y 10)
-            printf("  La nota es excelente tiene %.2f\n", nf);
+            // Caso exitoso: El producto esta dentro del presupuesto
+            gasto_acumulado += precio_producto; // Suma el valor al acumulador
+            printf("   [OK]: Producto agregado. Gasto acumulado actual: $%.2f\n", gasto_acumulado);
         }
-    } 
-    
-    // Retorno de control exitoso al sistema operativo
-    return 0;
+    }
+
+    // =========================================================================
+    // PRESENTACIÓN DE RESULTADOS (SALIDAS FINALES)
+    // =========================================================================
+    // Calculo matematico final del saldo remanente
+    saldo_restante = presupuesto - gasto_acumulado;
+
+    printf("\n=================================================================\n");
+    printf("                     RESUMEN DE FACTURACION                      \n");
+    printf("=================================================================\n");
+    printf(" -> Presupuesto inicial asignado : $ %10.2f\n", presupuesto);
+    printf(" -> Total neto gastado en caja   : $ %10.2f\n", gasto_acumulado);
+    printf(" -> Saldo o dinero sobrante      : $ %10.2f\n", saldo_restante);
+    printf("=================================================================\n");
+
+    return 0; // Finalizacion correcta del hilo de ejecucion
 }
-```
