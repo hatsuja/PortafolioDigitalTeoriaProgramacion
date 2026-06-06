@@ -1,38 +1,28 @@
-<h1 align="center">Estructuras Condicionales</h1>
+# <align="center">Estructuras Condicionales</align>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Teoría%20de%20la%20Programación-Unidad%202-purple?style=for-the-badge" alt="Unidad 2">
-</p>
-
-## ¿Qué son las Estructuras Condicionales?
-
-Las **estructuras condicionales** (también conocidas como estructuras de decisión o selectivas) son instrucciones de control que permiten bifurcar el flujo de ejecución de un programa basándose en el cumplimiento de una condición lógica. 
-
-El programa evalúa una expresión booleana (cuyo resultado solo puede ser **Verdadero** o **Falso**) mediante operadores relacionales o lógicos. Dependiendo del resultado de esta evaluación, el flujo toma un camino u otro, permitiendo que el software tome decisiones en tiempo real en lugar de ejecutarse de forma estrictamente lineal.
+## ¿Qué son?
+Las estructuras condicionales (también conocidas como estructuras de bifurcación o de toma de decisiones) son instrucciones de control que permiten alterar el flujo secuencial de un programa. Su función principal es evaluar una condición lógica (una expresión que da como resultado Verdadero o Falso) para determinar si se ejecuta o se omite un bloque específico de instrucciones. De este modo, el programa puede responder de manera dinámica e inteligente a diferentes entradas o escenarios de datos.
 
 ---
 
 ## Estructuras de Control
 
-En la ciencia de la computación, las estructuras de control determinan el orden en el que se ejecutan las instrucciones de un algoritmo. Se dividen fundamentalmente en tres grandes bloques:
-1. **Secuenciales:** Ejecución paso a paso en orden descendente.
-2. **Condicionales o Selectivas:** Bifurcan el flujo según una condición.
-3. **Repetitivas o Iterativas:** Repiten un bloque de instrucciones mediante bucles.
+Las estructuras de control dirigen el orden en que se ejecutan las instrucciones de un programa. Sin ellas, el código se ejecutaría estrictamente de arriba hacia abajo (de forma lineal). Se clasifican en tres grandes grupos: secuenciales, condicionales y repetitivas.
 
 ### Estructura Algorítmicas Condicionales
-Estas estructuras se especializan en evaluar situaciones variables. Su objetivo principal es direccionar el comportamiento del programa basándose en los datos de entrada o cálculos intermedios generados durante la ejecución.
+Estas estructuras se basan en la evaluación de una propuesta lógica (relacional o booleana). El camino que tomará el flujo de ejecución depende enteramente de si se cumple o no la restricción evaluada.
 
 ---
 
-## Condicionales: Tipos y Representación en Pseudocódigo
+## Condicionales
 
-A continuación se detallan las distintas variantes de las estructuras condicionales aplicadas en la lógica de programación:
+A continuación, se detallan y explican los tipos de estructuras condicionales utilizadas en la lógica de la programación, acompañadas por su respectiva representación en pseudocódigo.
 
-### 1. Estructura Condicional Simple (Si... Entonces)
-Es el tipo más básico de decisión. Evalúa una condición y, únicamente si el resultado es **Verdadero**, ejecuta el bloque de código interno. Si el resultado es **Falso**, ignora las instrucciones asociadas y continúa de largo con el resto del programa.
+### 1. Estructura Condicional Simple (Si ..Entonces)
+Es la forma más básica de toma de decisiones. Evalúa una condición; si esta resulta ser **Verdadera**, se ejecuta el bloque de código contenido en su interior. Si la condición es **Falsa**, el programa ignora dicho bloque por completo y continúa con la instrucción inmediatamente posterior a la estructura.
 
-#### Representación en Pseudocódigo:
+#### Pseudocódigo:
 ```text
 Si (condición_lógica) Entonces
-    // Bloque de instrucciones que se ejecuta solo si es Verdadero
+    // Instrucciones que se ejecutan solo si la condición es Verdadera
 FinSi
