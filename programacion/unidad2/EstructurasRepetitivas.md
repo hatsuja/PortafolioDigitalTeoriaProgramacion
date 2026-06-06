@@ -21,7 +21,7 @@ Dependiendo del momento en que se evalúe la condición de control y de si se co
 Es una estructura de pre-prueba. Esto significa que evalúa la condición lógica <b>antes</b> de permitir el ingreso al bloque de código. Si la condición es verdadera, ejecuta las instrucciones en su interior y vuelve a evaluar; si es falsa desde la primera comprobación, el bucle no se ejecuta ni una sola vez. Es ideal cuando el número de repeticiones depende de factores externos variables durante la ejecución.
 </p>
 
-### Pseudocódigo:
+#### Pseudocódigo:
 ```
 Mientras (condicion_logica) Hacer
     // Bloque de instrucciones a repetir
@@ -29,10 +29,10 @@ Mientras (condicion_logica) Hacer
 FinMientras
 ```
 
-### Diagrama de flujo:
+#### Diagrama de flujo:
 
 <div align="center">
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/f0f8708f-b31e-4bf2-af25-c3d38682a45d" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/f0f8708f-b31e-4bf2-af25-c3d38682a45d" />
 </div>
 
 ### B. Estructura Hacer .. Mientras / Repetir .. Hasta (`do while`)
