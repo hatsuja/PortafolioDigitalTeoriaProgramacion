@@ -109,3 +109,10 @@ FinSi
 <img width="522" height="401" alt="image" src="https://github.com/user-attachments/assets/dd58d0a4-f31a-42fa-97b1-dad3bab131c9" />
 </div>
 
+
+<p align="center">
+  <a href="https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/index.md">
+    <b>🏠 Ir al Índice Principal</b>
+  </a>
+</p>
+
