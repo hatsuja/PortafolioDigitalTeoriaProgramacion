@@ -33,16 +33,16 @@ Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o 
    * `float precio_producto`: Costo individual de cada artículo que se desea agregar y debe ser( $\ge 0$).
 
 * **Procesos Lógicos y Matemáticos:**
-  * **Filtros de Validación:** Uso de bucles post-prueba (`do-while`) para controlar que el presupuesto inicial no sea cero ni negativo.
-  * **Control de Iteración Dinámica:** Uso de un bucle `while` controlado por una bandera lógica o por la condición implícita de que el gasto actual se mantenga por debajo del límite.
+  * **Validación:** Uso de bucle (`do-while`) para controlar que el presupuesto inicial no sea cero ni negativo.
+  * **Control de Iteración:** Uso de un bucle `while` controlado  por la condición implícita de que el gasto actual se mantenga por debajo del límite.
   * **Evaluación de Restricción Condicional (Estructura Selectiva):**
     * Si `(gasto_acumulado + precio_producto) > presupuesto` $\rightarrow$ El sistema activa la alerta, rechaza el producto y rompe el bucle utilizando la instrucción `break`.
     * Sino $\rightarrow$ El sistema acepta el artículo y actualiza las cuentas: `gasto_acumulado = gasto_acumulado + precio_producto`.
-  * **Cálculo del Remanente:** `saldo_restante = presupuesto - gasto_acumulado`.
+  * **Cálculo :** `saldo_restante = presupuesto - gasto_acumulado`.
 
 * **Datos de Salida:**
   * Mensajes informativos interactivos por cada producto aceptado (Muestra el gasto parcial acumulado).
-  * Reporte financiero final: Monto total invertido en el supermercado y el vuelto o dinero sobrante.
+  * Reporte final: Monto total usado en el supermercado y el dinero sobrante.
 
 ---
 
