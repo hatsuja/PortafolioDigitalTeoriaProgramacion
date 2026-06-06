@@ -10,7 +10,7 @@ La aplicación práctica de las estructuras condicionales y cíclicas en el desa
 ### Principales Dificultades
 
 <p align="justify">
-El mayor desafío en esta unidad estuvo en el correcto anidamiento de los ciclos junto con las condicionales, ya que un error mínimo en la lógica booleana puede desencadenar comportamientos catastróficos como bucles infinitos o fallos en el flujo de ejecución así mismo al implementar el diagrama de flujo del mimo ya que suele se un poco confuso realizar la estructura del mismo porque puede exitir anidamiento de estas distintas estructuras.
+El mayor desafío en esta unidad estuvo en el correcto anidamiento de los ciclos junto con las condicionales, ya que un error mínimo en la lógica booleana puede desencadenar bucles infinitos o fallos en el flujo de ejecución así mismo al implementar el diagrama de flujo del mismo ya que suele ser un poco confuso realizar la estructura del mismo porque puede exitir anidamiento de estas distintas estructuras.
 </p>
 
 <p align="center">
