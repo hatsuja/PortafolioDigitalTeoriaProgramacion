@@ -1,9 +1,7 @@
 
-# <div align="center">3.Ejercicio Practico</div>
+# <div align="center">Ejercicio Practico</div>
 
 ---
-
-<br>
 
 ## 3.1 Planteamiento del Problema
 
