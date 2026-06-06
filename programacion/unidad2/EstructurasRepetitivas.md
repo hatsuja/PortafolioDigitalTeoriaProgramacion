@@ -80,6 +80,22 @@ FinPara
 El anidamiento ocurre cuando se coloca una estructura repetitiva (bucle interno) dentro del cuerpo de instrucciones de otra estructura repetitiva (bucle externo) y por cada iteración única que realiza el ciclo externo, el ciclo interno ejecuta su secuencia de repeticiones completa de principio a fin.
 </p>
 
+<div align="center">
 <img width="1121" height="423" alt="image" src="https://github.com/user-attachments/assets/5d32155e-32f0-4600-82af-c98f8a049551" />
+</div>
+
+#### Pseudocódigo:
+```
+Para i <- 1 Hasta limite_externo Hacer
+    // Instrucciones del bucle externo
+    Para j <- 1 Hasta limite_interno Hacer
+        // Instrucciones del bucle interno (se ejecutan completamente por cada 'i')
+    FinPara
+FinPara
+```
+#### Diagrama de flujo:
+<div align="center">
+<img width="287" height="527" alt="image" src="https://github.com/user-attachments/assets/760ab4f7-8a17-459c-8343-af98487242e9" />
+</div>
 
 ---
