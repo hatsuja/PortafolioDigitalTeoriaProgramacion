@@ -54,79 +54,49 @@ A continuación, se detalla el código de programación funcional, optimizado y 
 
 ```c
 #include <stdio.h>
-
 int main() {
-    // Declaracion de variables financieras de tipo punto flotante
-    float presupuesto, precio_producto;
-    float gasto_acumulado = 0.0; // Inicializacion obligatoria del acumulador
-    float saldo_restante = 0.0;
-
-    printf("=== SIMULADOR DE CAJA REGISTRADORA (LIMITE DE PRESUPUESTO) ===\n\n");
-
-    // =========================================================================
-    // GESTIÓN DE ENTRADA Y VALIDACIÓN INICIAL
-    // =========================================================================
-    // Asegura que el usuario ingrese un capital inicial valido para la compra
+    //variables
+    float presupuesto, precio_producto, saldo_restante = 0.0, gasto_acumulado = 0.0;
+    printf("=== SIMULADOR DE CAJA REGISTRADORA===\n");
     do {
-        printf("Ingrese su presupuesto total disponible ($): ");
+        printf("Ingrese su presupuesto: ");
         scanf("%f", &presupuesto);
         if (presupuesto <= 0) {
-            printf("[ERROR]: El presupuesto debe ser un monto mayor a 0.\n\n");
+            printf("El presupuesto debe ser un monto mayor a 0.\n");
         }
     } while (presupuesto <= 0);
-
-    printf("\n* Instruccion: Ingrese el precio de los productos de 1 en 1.");
-    printf("\n* Digite '0' en cualquier momento para finalizar las compras.\n");
-    printf("-----------------------------------------------------------------\n");
-
-    // =========================================================================
-    // ESTRUCTURA REPETITIVA: Ciclo continuo de facturacion de productos
-    // =========================================================================
+    printf("Ingrese el precio de los productos de 1 en 1.\n");
+    printf("Digite '0' para finalizar las compras.\n");
     while (gasto_acumulado < presupuesto) {
-        
-        // Bucle do-while interno para evitar el ingreso de precios negativos
         do {
-            printf("\n -> Ingrese el precio del producto ($): ");
+            printf("Ingrese el precio del producto ($): ");
             scanf("%f", &precio_producto);
             if (precio_producto < 0) {
-                printf("    [ERROR]: El precio de un producto no puede ser negativo.\n");
+                printf("El precio de un producto no puede ser negativo.\n");
             }
-        } while (precio_producto < 0);
-
-        // Condicion de salida voluntaria: Si el usuario ingresa 0, finaliza el ciclo
+        } while (precio_producto < 0);//  evitar el ingreso de precios negativos
         if (precio_producto == 0) {
-            printf(" > Proceso finalizado por eleccion del usuario.\n");
-            break; // Rompe el bucle while de forma inmediata
-        }
-
-        // =========================================================================
-        // ESTRUCTURA CONDICIONAL: Evaluacion preventiva del limite presupuestario
-        // =========================================================================
+            printf("Proceso finalizado.\n");
+            break; // Si el usuario ingresa 0, finaliza el ciclo
+        }  
         if ((gasto_acumulado + precio_producto) > presupuesto) {
-            // Caso donde el producto excede el capital disponible
-            printf("\n [ALERTA - PRESUPUESTO EXCEDIDO]: El producto de $%.2f no se puede agregar.\n", precio_producto);
-            printf(" Compra detenida automaticamente para evitar deudas.\n");
-            break; // Interrupcion forzada del bucle por falta de fondos
+            printf("PRESUPUESTO EXCEDIDO y El producto de $%.2f no se puede agregar.\n", precio_producto);
+            break; // Interrupcion forzada del bucle por falta de fondos     
         } else {
             // Caso exitoso: El producto esta dentro del presupuesto
             gasto_acumulado += precio_producto; // Suma el valor al acumulador
-            printf("   [OK]: Producto agregado. Gasto acumulado actual: $%.2f\n", gasto_acumulado);
+            printf("Producto agregado. Gasto actual: $%.2f\n", gasto_acumulado);
         }
     }
-
-    // =========================================================================
-    // PRESENTACIÓN DE RESULTADOS (SALIDAS FINALES)
-    // =========================================================================
-    // Calculo matematico final del saldo remanente
-    saldo_restante = presupuesto - gasto_acumulado;
-
+    saldo_restante = presupuesto - gasto_acumulado;     // Calculo del saldo
     printf("\n=================================================================\n");
     printf("                     RESUMEN DE FACTURACION                      \n");
     printf("=================================================================\n");
-    printf(" -> Presupuesto inicial asignado : $ %10.2f\n", presupuesto);
-    printf(" -> Total neto gastado en caja   : $ %10.2f\n", gasto_acumulado);
-    printf(" -> Saldo o dinero sobrante      : $ %10.2f\n", saldo_restante);
+    printf(" -> Presupuesto inicial     : $ %10.2f\n", presupuesto);
+    printf(" -> Total gastado en caja   : $ %10.2f\n", gasto_acumulado);
+    printf(" -> Dinero sobrante         : $ %10.2f\n", saldo_restante);
     printf("=================================================================\n");
-
-    return 0; // Finalizacion correcta del hilo de ejecucion
+    return 0;
 }
+```
+
