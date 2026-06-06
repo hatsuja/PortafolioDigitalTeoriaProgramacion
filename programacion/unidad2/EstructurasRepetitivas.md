@@ -77,15 +77,9 @@ FinPara
 
 ### D. Anidamiento de estructuras repetitivas
 <p align="justify">
-El anidamiento ocurre cuando se coloca una estructura repetitiva (bucle interno) dentro del cuerpo de instrucciones de otra estructura repetitiva (bucle externo). Por cada iteración única que realiza el ciclo externo, el ciclo interno ejecuta su secuencia de repeticiones completa de principio a fin. Esta técnica es fundamental para trabajar con estructuras de datos complejas multidimensionales, como matrices, tablas de coordenadas o para procesar múltiples componentes evaluativos por cada estudiante.
+El anidamiento ocurre cuando se coloca una estructura repetitiva (bucle interno) dentro del cuerpo de instrucciones de otra estructura repetitiva (bucle externo) y por cada iteración única que realiza el ciclo externo, el ciclo interno ejecuta su secuencia de repeticiones completa de principio a fin.
 </p>
+
+<img width="1121" height="423" alt="image" src="https://github.com/user-attachments/assets/5d32155e-32f0-4600-82af-c98f8a049551" />
 
 ---
-
-## 2.3 Pseudocódigo de cada Tipo de Estructura
-
-<p align="justify">
-A continuación, se detalla la sintaxis lógica y la organización estructural en formato de pseudocódigo estándar para cada bucle analizado:
-</p>
-
-
