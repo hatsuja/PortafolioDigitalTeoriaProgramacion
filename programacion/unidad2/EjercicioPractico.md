@@ -41,7 +41,7 @@ Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o 
   * **Cálculo :** `saldo_restante = presupuesto - gasto_acumulado`.
 
 * **Datos de Salida:**
-  * Mensajes informativos interactivos por cada producto aceptado (Muestra el gasto parcial acumulado).
+  * Mensajes informativos interactivos por cada producto aceptado.
   * Reporte final: Monto total usado en el supermercado y el dinero sobrante.
 
 ---
