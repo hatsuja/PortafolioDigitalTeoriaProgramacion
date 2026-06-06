@@ -32,7 +32,7 @@ FinMientras
 #### Diagrama de flujo:
 
 <div align="center">
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/f0f8708f-b31e-4bf2-af25-c3d38682a45d" />
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f0f8708f-b31e-4bf2-af25-c3d38682a45d" />
 </div>
 
 ### B. Estructura Hacer .. Mientras / Repetir .. Hasta (`do while`)
