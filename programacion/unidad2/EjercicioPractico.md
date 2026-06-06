@@ -112,3 +112,11 @@ int main() {
 | **5. Cálculo Final** | 50.00 | 20.00 | 42.00 | 8.00 | No aplica | Calcula: `saldo_restante = 50.00 - 42.00` |
 | **6. Fin** | 50.00 | 20.00 | 42.00 | 8.00 | No aplica | Imprime el bloque del **RESUMEN DE FACTURACIÓN**. |
 
+
+
+<p align="center">
+  <a href="https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/index.md">
+    <b>📂 Ir al Índice Principal 📂</b>
+  </a>
+</p>
+
