@@ -7,7 +7,7 @@
 ## 1.1 ¿Qué son las Estructuras Condicionales?
 
 <p align="justify">
-Las estructuras condicionales (también conocidas como estructuras de bifurcación o selectivas) son instrucciones de control fundamentales que permiten alterar el flujo lineal y secuencial de la ejecución de un programa. Su propósito principal es evaluar una condición lógica determinada (una expresión booleana que puede resultar únicamente en verdadero o falso) y, en función de dicho resultado, desviar el camino del flujo para ejecutar un bloque específico de código.
+Las estructuras condicionales (también conocidas como estructuras de bifurcación o selectivas) son instrucciones de control que permiten alterar el flujo lineal y secuencial de la ejecución de un programa siendo su propósito principal es evaluar una condición lógica o una expresión booleana que puede resultar únicamente en verdadero o falso y, en función de dicho resultado, desviar el camino del flujo para ejecutar un bloque específico de código.
 </p>
 
 <p align="justify">
