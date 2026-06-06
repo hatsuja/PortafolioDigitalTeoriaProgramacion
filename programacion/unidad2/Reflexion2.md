@@ -1,6 +1,5 @@
 <div align="center">
-  
-# Reflexión Crítica: Desarrollo del Simulador de Caja Registradora en C
+# Reflexión Crítica
 </div>
 
 La creación de este simulador de caja registradora permitió llevar a la práctica conceptos estructurales de la programación lógica y el flujo de control algorítmico. El diseño del programa demuestra cómo la combinación de estructuras cíclicas iterativas y condicionales anidadas logra modelar un escenario real de transacciones comerciales de manera automatizada. El aspecto más valioso del ejercicio radica en la arquitectura del software para anticipar las decisiones del usuario: desde la asignación de un presupuesto inicial hasta la adición progresiva de ítems, el código actúa como un filtro constante que asegura la integridad de los datos financieros calculados. Esto resalta que programar no consiste únicamente en escribir instrucciones secuenciales, sino en diseñar un entorno seguro y predecible capaz de procesar variables dinámicas sin corromper el estado final del sistema, garantizando que el balance final (`saldo_restante`) coincida exactamente con la auditoría de los gastos acumulados.
