@@ -30,7 +30,7 @@ Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o 
 
 * **Datos de Entrada:**
   * `float presupuesto`: Dinero total inicial con el que cuenta el usuario para comprar y debe ser( $> 0$).
--   * `float precio_producto`: Costo individual de cada artículo que se desea agregar y debe ser( $\ge 0$).
+   * `float precio_producto`: Costo individual de cada artículo que se desea agregar y debe ser( $\ge 0$).
 
 * **Procesos Lógicos y Matemáticos:**
   * **Filtros de Validación:** Uso de bucles post-prueba (`do-while`) para controlar que el presupuesto inicial no sea cero ni negativo.
