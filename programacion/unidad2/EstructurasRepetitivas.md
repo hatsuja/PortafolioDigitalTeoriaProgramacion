@@ -58,8 +58,21 @@ Mientras (condicion_logica)
 
 ### C. Estructura Para (`for`)
 <p align="justify">
-Es una estructura de control especializada en la iteración contada. Se utiliza cuando el programador conoce con exactitud el número de veces que se debe repetir el ciclo antes de que este inicie. Integra en una sola línea tres componentes esenciales: la inicialización de una variable contador, la condición de parada o límite, y la expresión de incremento o decremento que actualiza el contador tras cada iteración.
+Es una estructura de control especializada en la iteración contada y se utiliza cuando se conoce  el número de veces que se debe repetir el ciclo antes de que este inicie inclusp integra en una sola línea de tres componentes esenciales: la inicialización de una variable contador, la condición de parada o límite, y la expresión de incremento o decremento que actualiza el contador tras cada iteración.
 </p>
+
+#### Pseudocódigo:
+```
+Para variable_contador <- valor_inicial Hasta valor_final Con Paso incremento Hacer
+    // Bloque de instrucciones que se ejecutan de forma contada
+FinPara
+```
+
+#### Diagrama de flujo:
+
+<div align="center">
+<img width="453" height="322" alt="image" src="https://github.com/user-attachments/assets/b0ab24eb-64d7-4bef-973f-cf99f09188e9" />
+</div>
 
 
 ### D. Anidamiento de estructuras repetitivas
