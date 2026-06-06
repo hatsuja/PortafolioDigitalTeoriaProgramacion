@@ -63,8 +63,21 @@ FinSi
 Se implementa cuando el problema exige evaluar más de dos caminos posibles dependientes de diversas combinaciones lógicas o del estado numérico de una variable particular.
 </p>
 
-* **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
 * **Estructura `case` o `switch` (Selección Múltiple):** Es una alternativa optimizada para evaluar el valor exacto de una única variable cuantitativa (generalmente de tipo entero o carácter). Compara dicho valor de forma directa contra una serie de casos preestablecidos (<code>case</code>). Si encuentra una coincidencia exacta, procesa ese bloque; opcionalmente incluye una sección por defecto (<code>default</code> o de otro modo) para manejar situaciones no previstas.
+
+---
+
+### Pseudocódigo:
+```
+Según (variable_evaluada) Hacer
+    Caso valor_1:
+        // Instrucciones si variable_evaluada es estrictamente igual a valor_1
+    Caso valor_2:
+        // Instrucciones si variable_evaluada es estrictamente igual a valor_2
+    De Otro Modo:
+        // Instrucciones de escape si la variable no coincidió con ningún valor previo
+FinSegun
+```
 
 ---
 
@@ -72,7 +85,21 @@ Se implementa cuando el problema exige evaluar más de dos caminos posibles depe
 <img width="810" height="307" alt="image" src="https://github.com/user-attachments/assets/d6c2271f-1925-4c2f-9b6b-b5bba8ba38c8" />
 </div>
 
+---
 
-
-
+* **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
+* 
+### Pseudocódigo:
+```
+Si (condicion_1) Entonces
+    // Instrucciones si la condicion_1 es Verdadera
+Sino Si (condicion_2) Entonces
+    // Instrucciones si la condicion_1 es Falsa y la condicion_2 es Verdadera
+Sino
+    // Instrucciones por defecto si ninguna de las condiciones previas se cumplió
+FinSi
+```
+<div align="center">
+<img width="522" height="401" alt="image" src="https://github.com/user-attachments/assets/dd58d0a4-f31a-42fa-97b1-dad3bab131c9" />
+</div>
 
