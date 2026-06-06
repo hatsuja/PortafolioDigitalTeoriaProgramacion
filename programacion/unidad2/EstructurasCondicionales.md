@@ -1,8 +1,7 @@
 
-
 # <div align="center">Estructuras Condicionales</div>
 
-
+---
 
 ## 1.1 ¿Qué son las Estructuras Condicionales?
 
@@ -25,21 +24,41 @@ Evalúa una única condición lógica ya que si esta se cumple es verdadera, el 
 </p>
 
 ### Pseudocódigo:
-```C
+```
 Si (condicion_logica) Entonces
     // Bloque de instrucciones a ejecutar si la condición es Verdadera
 FinSi
 ```
-### Diagrama de flujo
+### Diagrama de flujo:
 
 <div align="center">
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/2ad3813f-c34e-4a2a-aa52-a8d45b4710b6" />
 </div>
 
+---
+
 ### B. Estructuras condicionales dobles (`if else`)
 <p align="justify">
-Permiten dividir el flujo del algoritmo en dos rutas alternativas que son mutuamente excluyentes entre sí. Al evaluarse la expresión de control, si el resultado es verdadero, se procesa obligatoriamente el bloque del <code>if</code>; de lo contrario, si la expresión resulta ser falsa, el flujo se desvía sin excepción para ejecutar el bloque secundario definido bajo la palabra reservada <code>else</code> (sino).
+Permite dividir el flujo del algoritmo en dos rutas alternativas ya que al evaluarse la expresión de control, si el resultado es verdadero, se procesa obligatoriamente el bloque del <code>if</code>; de lo contrario, si la expresión resulta ser falsa, el flujo se desvía sin excepción para ejecutar el bloque secundario definido bajo la palabra reservada <code>else</code> (sino).
 </p>
+
+
+### Pseudocódigo:
+```
+Si (condicion_logica) Entonces
+    // Bloque de instrucciones si la condición es Verdadera
+Sino
+    // Bloque de instrucciones alternativo si la condición es Falsa
+FinSi
+```
+### Diagrama de flujo:
+
+<div align="center">
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/beca1b80-7a8c-4280-bb31-62ac11e16b62" />
+</div>
+
+
+
 
 ### C. Estructuras condicionales múltiples (`if else if`, `case` / `switch`)
 <p align="justify">
