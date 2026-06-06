@@ -58,11 +58,9 @@ FinSi
 </div>
 
 
-
-
 ### C. Estructuras condicionales múltiples (`if else if`, `case` / `switch`)
 <p align="justify">
-Se implementan cuando la naturaleza del problema exige evaluar más de dos caminos posibles dependientes de diversas combinaciones lógicas o del estado numérico de una variable particular.
+Se implementa cuando el problema exige evaluar más de dos caminos posibles dependientes de diversas combinaciones lógicas o del estado numérico de una variable particular.
 </p>
 
 * **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
@@ -70,10 +68,11 @@ Se implementan cuando la naturaleza del problema exige evaluar más de dos camin
 
 ---
 
-## 1.3 Pseudocódigo de cada Tipo de Estructura
+<div align="center">
+<img width="810" height="307" alt="image" src="https://github.com/user-attachments/assets/d6c2271f-1925-4c2f-9b6b-b5bba8ba38c8" />
+</div>
 
-<p align="justify">
-A continuación, se detalla la sintaxis lógica y estructural en formato de pseudocódigo estándar para cada uno de los tipos de condicionales explicados:
-</p>
+
+
 
 
