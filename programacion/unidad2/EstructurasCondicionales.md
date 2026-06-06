@@ -29,7 +29,7 @@ Si (condicion_logica) Entonces
     // Bloque de instrucciones a ejecutar si la condición es Verdadera
 FinSi
 ```
-### Diagrama de flujo:
+#### Diagrama de flujo:
 
 <div align="center">
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/2ad3813f-c34e-4a2a-aa52-a8d45b4710b6" />
@@ -43,7 +43,7 @@ Permite dividir el flujo del algoritmo en dos rutas alternativas ya que al evalu
 </p>
 
 
-### Pseudocódigo:
+#### Pseudocódigo:
 ```
 Si (condicion_logica) Entonces
     // Bloque de instrucciones si la condición es Verdadera
@@ -51,7 +51,7 @@ Sino
     // Bloque de instrucciones alternativo si la condición es Falsa
 FinSi
 ```
-### Diagrama de flujo:
+#### Diagrama de flujo:
 
 <div align="center">
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/beca1b80-7a8c-4280-bb31-62ac11e16b62" />
@@ -67,7 +67,7 @@ Se implementa cuando el problema exige evaluar más de dos caminos posibles depe
 
 ---
 
-### Pseudocódigo:
+#### Pseudocódigo:
 ```
 Según (variable_evaluada) Hacer
     Caso valor_1:
@@ -80,16 +80,18 @@ FinSegun
 ```
 
 ---
+#### Diagrama de flujo:
 
 <div align="center">
 <img width="810" height="307" alt="image" src="https://github.com/user-attachments/assets/d6c2271f-1925-4c2f-9b6b-b5bba8ba38c8" />
 </div>
 
 ---
+### Estructura Condicional en Cascada
 
 * **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
 
-### Pseudocódigo:
+#### Pseudocódigo:
 ```
 Si (condicion_1) Entonces
     // Instrucciones si la condicion_1 es Verdadera
@@ -99,6 +101,8 @@ Sino
     // Instrucciones por defecto si ninguna de las condiciones previas se cumplió
 FinSi
 ```
+
+#### Diagrama de flujo:
 <div align="center">
 <img width="522" height="401" alt="image" src="https://github.com/user-attachments/assets/dd58d0a4-f31a-42fa-97b1-dad3bab131c9" />
 </div>
