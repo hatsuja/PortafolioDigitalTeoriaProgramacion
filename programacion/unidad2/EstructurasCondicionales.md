@@ -23,7 +23,7 @@ En el ámbito del desarrollo de software, estas estructuras dotan a los algoritm
 Evalúa una única condición lógica ya que si esta se cumple es verdadera, el programa ingresa y procesa las instrucciones delimitadas en su interior. En caso de que la condición no se cumpla seria falsa y el bloque interno es completamente ignorado y el compilador continúa con la ejecución lineal de la siguiente línea de código externa.
 </p>
 
-### Pseudocódigo:
+#### Pseudocódigo:
 ```
 Si (condicion_logica) Entonces
     // Bloque de instrucciones a ejecutar si la condición es Verdadera
@@ -88,7 +88,7 @@ FinSegun
 ---
 
 * **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
-* 
+
 ### Pseudocódigo:
 ```
 Si (condicion_1) Entonces
