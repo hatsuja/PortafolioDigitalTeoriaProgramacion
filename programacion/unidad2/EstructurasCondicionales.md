@@ -18,17 +18,14 @@ En el ámbito del desarrollo de software, estas estructuras dotan a los algoritm
 
 ## 1.2 Tipos de Condicionales
 
-<p align="justify">
-Dependiendo de la complejidad de la decisión y de la cantidad de caminos opcionales que se presenten en el problema, las estructuras selectivas se clasifican técnicamente en tres categorías:
-</p>
 
 ### A. Estructuras condicionales simples (`if`)
 <p align="justify">
-Es la variante básica de selección. Evalúa una única condición lógica; si esta se cumple (es verdadera), el programa ingresa y procesa las instrucciones delimitadas en su interior. En caso de que la condición no se cumpla (es falsa), el bloque interno es completamente ignorado y el compilador continúa con la ejecución lineal de la siguiente línea de código externa.
+Evalúa una única condición lógica ya que si esta se cumple es verdadera, el programa ingresa y procesa las instrucciones delimitadas en su interior. En caso de que la condición no se cumpla seria falsa y el bloque interno es completamente ignorado y el compilador continúa con la ejecución lineal de la siguiente línea de código externa.
 </p>
 
 ### Pseudocódigo: Estructura Condicional Simple
-```text
+```C
 Si (condicion_logica) Entonces
     // Bloque de instrucciones a ejecutar si la condición es Verdadera
 FinSi
