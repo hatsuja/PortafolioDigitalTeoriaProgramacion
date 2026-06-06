@@ -54,14 +54,11 @@ FinSi
 </div>
 
 
-### C. Estructuras condicionales múltiples (`if else if`, `case` / `switch`)
-<p align="justify">
-Se implementa cuando el problema exige evaluar más de dos caminos posibles dependientes de diversas combinaciones lógicas o del estado numérico de una variable particular.
-</p>
+### C. Estructuras condicionales múltiples ( `case` / `switch`)
 
 ### Estructura Condicional de Selección Múltiple
 
-* **Estructura `case`, `switch` (Selección Múltiple):** Es una alternativa optimizada para evaluar el valor exacto de una única variable cuantitativa (generalmente de tipo entero o carácter). Compara dicho valor de forma directa contra una serie de casos preestablecidos (<code>case</code>). Si encuentra una coincidencia exacta, procesa ese bloque; opcionalmente incluye una sección por defecto (<code>default</code> o de otro modo) para manejar situaciones no previstas.
+* **Estructura `case`, `switch`:** Sirve para evaluar el valor exacto de una única variable cuantitativa (generalmente de tipo entero o carácter). Compara dicho valor de forma directa contra una serie de casos preestablecidos (<code>case</code>). Si encuentra una coincidencia exacta, procesa ese bloque; opcionalmente incluye una sección por defecto (<code>default</code> o de otro modo) para manejar situaciones no previstas.
 
 
 #### Pseudocódigo:
@@ -82,7 +79,8 @@ FinSegun
 <img width="810" height="307" alt="image" src="https://github.com/user-attachments/assets/d6c2271f-1925-4c2f-9b6b-b5bba8ba38c8" />
 </div>
 
-### Estructura Condicional en Cascada
+### D. Anidamiento de estructuras de Condicionales (`if else if`)
+#### Estructura Condicional en Cascada
 
 * **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
 
