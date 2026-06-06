@@ -1,5 +1,4 @@
-# <div align="center">Portafolio Digital de Aprendizaje</div>
-## <div align="center">Teoría de la Programación — Unidad 2</div>
+
 
 <br>
 
