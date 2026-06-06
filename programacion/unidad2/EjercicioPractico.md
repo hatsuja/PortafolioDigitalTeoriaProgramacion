@@ -46,7 +46,12 @@ Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o 
 
 ---
 
-## 3.1 Codificación en Lenguaje C
+## 3.3 Diagrama de flujo
+
+<img width="489" height="1661" alt="phhrotafolio drawio" src="https://github.com/user-attachments/assets/98e637ff-b17a-4d51-b6a2-f5e8748618f2" />
+
+
+## 3.4 Codificación en Lenguaje C
 
 
 ```c
