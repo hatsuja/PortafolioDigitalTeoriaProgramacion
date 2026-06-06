@@ -3,7 +3,7 @@
 
 ---
 
-## 📝 1. Planteamiento del Problema
+## 3.1 Planteamiento del Problema
 
 <p align="justify">
 Un usuario desea realizar las compras del día en un supermercado local, pero cuenta con un presupuesto limitado (por ejemplo, $30.00). Para evitar quedarse sin fondos al momento de llegar a la caja general, se requiere el diseño de un programa informático en lenguaje C que simule una caja registradora portátil de control personal.
@@ -21,16 +21,12 @@ El algoritmo debe iniciar solicitando de forma obligatoria el ingreso del presup
 * El proceso de compra repetitivo puede terminar de forma normal si el usuario digita un precio equivalente a `0`, lo cual indica que ha finalizado voluntariamente su selección de productos antes de agotar su dinero.
 
 <p align="justify">
-Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o por decisión del comprador), el programa debe imprimir en pantalla un informe detallado con el total neto final gastado y el saldo sobrante exacto que le queda en su billetera.
+Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o por decisión del comprador), el programa debe imprimir en pantalla un informe detallado con el total gastado y el saldo sobrante exacto que le queda en su billetera.
 </p>
 
 ---
 
-## 📊 2. Análisis del Problema
-
-<p align="justify">
-Para estructurar la solución algorítmica de forma lógica, se definen los siguientes componentes de datos, variables y operaciones de control:
-</p>
+## 3.2 Análisis del Problema
 
 * **Datos de Entrada:**
   * `float presupuesto`: Dinero total inicial con el que cuenta el usuario para comprar (Debe ser $> 0$).
