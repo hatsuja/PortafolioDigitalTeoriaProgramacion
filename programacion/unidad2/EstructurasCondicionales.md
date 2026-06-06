@@ -1,14 +1,8 @@
 
 
-<br>
+# <div align="center">Estructuras Condicionales</div>
 
----
 
-# <div align="center">1. Estructuras Condicionales</div>
-
----
-
-<br>
 
 ## 1.1 ¿Qué son las Estructuras Condicionales?
 
