@@ -1,20 +1,12 @@
-# <div align="center">Evidencia Práctica Aplicada</div>
-## <div align="center">Estructuras de Control Combinadas en Lenguaje C</div>
-
-<br>
-
----
 
 # <div align="center">Ejercicio Práctico: Simulador de Caja Registradora con Límite de Presupuesto</div>
 
 ---
 
-<br>
-
 ## 📝 1. Planteamiento del Problema
 
 <p align="justify">
-Un usuario desea realizar las compras del día en un supermercado local, pero cuenta con un presupuesto económico estrictamente limitado (por ejemplo, $30.00). Para evitar quedarse sin fondos al momento de llegar a la caja general, se requiere el diseño de un programa informático en lenguaje C que simule una caja registradora portátil de control personal.
+Un usuario desea realizar las compras del día en un supermercado local, pero cuenta con un presupuesto limitado (por ejemplo, $30.00). Para evitar quedarse sin fondos al momento de llegar a la caja general, se requiere el diseño de un programa informático en lenguaje C que simule una caja registradora portátil de control personal.
 </p>
 
 <p align="justify">
@@ -22,11 +14,11 @@ El algoritmo debe iniciar solicitando de forma obligatoria el ingreso del presup
 </p>
 
 **Reglas de negocio y restricciones basadas en condiciones:**
-* **Validación inicial:** El presupuesto ingresado al principio por el usuario debe ser un valor real estrictamente mayor a cero ($> 0$).
-* **Validación de productos:** El precio de cada artículo individual no puede ser una cantidad negativa ($\ge 0$). Si se detecta un valor erróneo, el programa debe obligar a reingresar el precio de forma persistente sin afectar el acumulador actual.
-* **Control de límite financiero:** Antes de sumar formalmente el costo de un nuevo producto al carrito, el sistema debe evaluar mediante una estructura condicional si dicha adición provocará que el gasto total acumulado exceda el presupuesto disponible. 
-  * Si el precio del producto hace que se supere el dinero disponible, el sistema debe denegar el ingreso del artículo, emitir una alerta textual de **"Presupuesto Excedido"** e interrumpir inmediatamente la ejecución del bucle.
-* **Criterio de finalización alternativa:** El proceso de compra repetitivo puede terminar de forma normal si el usuario digita un precio equivalente a `0`, lo cual indica que ha finalizado voluntariamente su selección de productos antes de agotar su dinero.
+* El presupuesto ingresado al principio por el usuario debe ser un valor real estrictamente mayor a cero.
+* El precio de cada artículo individual no puede ser una cantidad negativa. Si se detecta un valor erróneo, el programa debe obligar a reingresar el precio de forma persistente sin afectar el acumulador actual.
+* Antes de sumar formalmente el costo de un nuevo producto al carrito, el sistema debe evaluar mediante una estructura condicional si dicha adición provocará que el gasto total acumulado exceda el presupuesto disponible. 
+* Si el precio del producto hace que se supere el dinero disponible, el sistema debe denegar el ingreso del artículo, emitir una alerta textual de **"Presupuesto Excedido"** e interrumpir inmediatamente la ejecución del bucle.
+* El proceso de compra repetitivo puede terminar de forma normal si el usuario digita un precio equivalente a `0`, lo cual indica que ha finalizado voluntariamente su selección de productos antes de agotar su dinero.
 
 <p align="justify">
 Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o por decisión del comprador), el programa debe imprimir en pantalla un informe detallado con el total neto final gastado y el saldo sobrante exacto que le queda en su billetera.
