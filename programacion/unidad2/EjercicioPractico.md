@@ -46,17 +46,13 @@ Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o 
 
 ---
 
-## 💻 3. Código Fuente en Lenguaje C
+## 3.1 Codificación en Lenguaje C
 
-<p align="justify">
-A continuación, se detalla el código de programación funcional, optimizado y rigurosamente documentado con comentarios técnicos en cada bloque operativo:
-</p>
 
 ```c
 #include <stdio.h>
 int main() {
-    //variables
-    float presupuesto, precio_producto, saldo_restante = 0.0, gasto_acumulado = 0.0;
+    float presupuesto, precio_producto, saldo_restante = 0.0, gasto_acumulado = 0.0;//variables
     printf("=== SIMULADOR DE CAJA REGISTRADORA===\n");
     do {
         printf("Ingrese su presupuesto: ");
@@ -77,15 +73,14 @@ int main() {
         } while (precio_producto < 0);//  evitar el ingreso de precios negativos
         if (precio_producto == 0) {
             printf("Proceso finalizado.\n");
-            break; // Si el usuario ingresa 0, finaliza el ciclo
+            break; // si el usuario ingresa 0 finaliza el ciclo
         }  
         if ((gasto_acumulado + precio_producto) > presupuesto) {
             printf("PRESUPUESTO EXCEDIDO y El producto de $%.2f no se puede agregar.\n", precio_producto);
-            break; // Interrupcion forzada del bucle por falta de fondos     
+            break; // interrupcion forzada del bucle por falta de fondos     
         } else {
-            // Caso exitoso: El producto esta dentro del presupuesto
             gasto_acumulado += precio_producto; // Suma el valor al acumulador
-            printf("Producto agregado. Gasto actual: $%.2f\n", gasto_acumulado);
+            printf("Producto agregado. Gasto actual: $%.2f\n", gasto_acumulado); // El producto esta dentro del presupuesto
         }
     }
     saldo_restante = presupuesto - gasto_acumulado;     // Calculo del saldo
