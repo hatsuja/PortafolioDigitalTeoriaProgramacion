@@ -3,7 +3,7 @@
 # Reflexión Crítica
 
 </div>
-
+<p align="justify">
 La aplicación práctica de las estructuras condicionales y cíclicas en el desarrollo de algoritmos representa una parte fundamental del pensamiento secuencial hacia el pensamiento lógico-abstracto que es necesario en la programación ya que al implementar este tipo de lógica se facilita la capacidad para tomar decisiones autónomas y procesar flujos de datos dinámicos y repetitivos de forma eficiente por eso dominar estas estructuras sean condicionales o repetitivas ayudan a optimizar de manera efectiva la resolución de problemas
 
 ### Principales Dificultades Encontradas
