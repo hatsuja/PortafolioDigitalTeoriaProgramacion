@@ -1,28 +1,62 @@
-# <align="center">Estructuras Condicionales</align>
+# <div align="center">Portafolio Digital de Aprendizaje</div>
+## <div align="center">Teoría de la Programación — Unidad 2</div>
 
-## ¿Qué son?
-Las estructuras condicionales (también conocidas como estructuras de bifurcación o de toma de decisiones) son instrucciones de control que permiten alterar el flujo secuencial de un programa. Su función principal es evaluar una condición lógica (una expresión que da como resultado Verdadero o Falso) para determinar si se ejecuta o se omite un bloque específico de instrucciones. De este modo, el programa puede responder de manera dinámica e inteligente a diferentes entradas o escenarios de datos.
-
----
-
-## Estructuras de Control
-
-Las estructuras de control dirigen el orden en que se ejecutan las instrucciones de un programa. Sin ellas, el código se ejecutaría estrictamente de arriba hacia abajo (de forma lineal). Se clasifican en tres grandes grupos: secuenciales, condicionales y repetitivas.
-
-### Estructura Algorítmicas Condicionales
-Estas estructuras se basan en la evaluación de una propuesta lógica (relacional o booleana). El camino que tomará el flujo de ejecución depende enteramente de si se cumple o no la restricción evaluada.
+<br>
 
 ---
 
-## Condicionales
+# <div align="center">1. Estructuras Condicionales</div>
 
-A continuación, se detallan y explican los tipos de estructuras condicionales utilizadas en la lógica de la programación, acompañadas por su respectiva representación en pseudocódigo.
+---
 
-### 1. Estructura Condicional Simple (Si ..Entonces)
-Es la forma más básica de toma de decisiones. Evalúa una condición; si esta resulta ser **Verdadera**, se ejecuta el bloque de código contenido en su interior. Si la condición es **Falsa**, el programa ignora dicho bloque por completo y continúa con la instrucción inmediatamente posterior a la estructura.
+<br>
 
-#### Pseudocódigo:
+## 1.1 ¿Qué son las Estructuras Condicionales?
+
+<p align="justify">
+Las estructuras condicionales (también conocidas como estructuras de bifurcación o selectivas) son instrucciones de control fundamentales que permiten alterar el flujo lineal y secuencial de la ejecución de un programa. Su propósito principal es evaluar una condición lógica determinada (una expresión booleana que puede resultar únicamente en verdadero o falso) y, en función de dicho resultado, desviar el camino del flujo para ejecutar un bloque específico de código.
+</p>
+
+<p align="justify">
+En el ámbito del desarrollo de software, estas estructuras dotan a los algoritmos de la capacidad de tomar decisiones dinámicas en tiempo real en base a los datos de entrada proporcionados por el usuario o por el entorno físico de ejecución, evitando que el programa actúe siempre de la misma forma rígida.
+</p>
+
+---
+
+## 1.2 Tipos de Condicionales
+
+<p align="justify">
+Dependiendo de la complejidad de la decisión y de la cantidad de caminos opcionales que se presenten en el problema, las estructuras selectivas se clasifican técnicamente en tres categorías:
+</p>
+
+### A. Estructuras condicionales simples (`if`)
+<p align="justify">
+Es la variante básica de selección. Evalúa una única condición lógica; si esta se cumple (es verdadera), el programa ingresa y procesa las instrucciones delimitadas en su interior. En caso de que la condición no se cumpla (es falsa), el bloque interno es completamente ignorado y el compilador continúa con la ejecución lineal de la siguiente línea de código externa.
+</p>
+
+### B. Estructuras condicionales dobles (`if else`)
+<p align="justify">
+Permiten dividir el flujo del algoritmo en dos rutas alternativas que son mutuamente excluyentes entre sí. Al evaluarse la expresión de control, si el resultado es verdadero, se procesa obligatoriamente el bloque del <code>if</code>; de lo contrario, si la expresión resulta ser falsa, el flujo se desvía sin excepción para ejecutar el bloque secundario definido bajo la palabra reservada <code>else</code> (sino).
+</p>
+
+### C. Estructuras condicionales múltiples (`if else if`, `case` / `switch`)
+<p align="justify">
+Se implementan cuando la naturaleza del problema exige evaluar más de dos caminos posibles dependientes de diversas combinaciones lógicas o del estado numérico de una variable particular.
+</p>
+
+* **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
+* **Estructura `case` o `switch` (Selección Múltiple):** Es una alternativa optimizada para evaluar el valor exacto de una única variable cuantitativa (generalmente de tipo entero o carácter). Compara dicho valor de forma directa contra una serie de casos preestablecidos (<code>case</code>). Si encuentra una coincidencia exacta, procesa ese bloque; opcionalmente incluye una sección por defecto (<code>default</code> o de otro modo) para manejar situaciones no previstas.
+
+---
+
+## 1.3 Pseudocódigo de cada Tipo de Estructura
+
+<p align="justify">
+A continuación, se detalla la sintaxis lógica y estructural en formato de pseudocódigo estándar para cada uno de los tipos de condicionales explicados:
+</p>
+
+### Pseudocódigo: Estructura Condicional Simple
 ```text
-Si (condición_lógica) Entonces
-    // Instrucciones que se ejecutan solo si la condición es Verdadera
+Si (condicion_logica) Entonces
+    // Bloque de instrucciones a ejecutar si la condición es Verdadera
 FinSi
