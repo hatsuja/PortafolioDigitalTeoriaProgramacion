@@ -27,6 +27,13 @@ Dependiendo de la complejidad de la decisión y de la cantidad de caminos opcion
 Es la variante básica de selección. Evalúa una única condición lógica; si esta se cumple (es verdadera), el programa ingresa y procesa las instrucciones delimitadas en su interior. En caso de que la condición no se cumpla (es falsa), el bloque interno es completamente ignorado y el compilador continúa con la ejecución lineal de la siguiente línea de código externa.
 </p>
 
+### Pseudocódigo: Estructura Condicional Simple
+```text
+Si (condicion_logica) Entonces
+    // Bloque de instrucciones a ejecutar si la condición es Verdadera
+FinSi
+```
+
 ### B. Estructuras condicionales dobles (`if else`)
 <p align="justify">
 Permiten dividir el flujo del algoritmo en dos rutas alternativas que son mutuamente excluyentes entre sí. Al evaluarse la expresión de control, si el resultado es verdadero, se procesa obligatoriamente el bloque del <code>if</code>; de lo contrario, si la expresión resulta ser falsa, el flujo se desvía sin excepción para ejecutar el bloque secundario definido bajo la palabra reservada <code>else</code> (sino).
@@ -48,8 +55,4 @@ Se implementan cuando la naturaleza del problema exige evaluar más de dos camin
 A continuación, se detalla la sintaxis lógica y estructural en formato de pseudocódigo estándar para cada uno de los tipos de condicionales explicados:
 </p>
 
-### Pseudocódigo: Estructura Condicional Simple
-```text
-Si (condicion_logica) Entonces
-    // Bloque de instrucciones a ejecutar si la condición es Verdadera
-FinSi
+
