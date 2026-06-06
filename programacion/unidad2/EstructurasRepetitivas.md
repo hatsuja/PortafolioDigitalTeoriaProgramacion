@@ -37,13 +37,30 @@ FinMientras
 
 ### B. Estructura Hacer .. Mientras / Repetir .. Hasta (`do while`)
 <p align="justify">
-Es una estructura de post-prueba. A diferencia del bucle anterior, la condición de control se evalúa <b>al final</b> de la iteración. Esto garantiza con total certeza que el bloque de instrucciones interno se ejecutará <b>al menos una vez</b>, sin importar si la condición es falsa desde el principio. Es la estructura estándar utilizada para la validación de datos de entrada (por ejemplo, asegurar que una nota esté obligatoriamente en el rango de 0 a 10).
+Es una estructura en el que la condición de control se evalúa <b>al final</b> de la iteración lo que garantiza que el bloque de instrucciones interno se ejecutará <b>al menos una vez</b>, sin importar si la condición es falsa desde el principio incluso esta estructura es utilizada para la validación de datos de entrada por ejemplo de asegurar un rango de 0 a X.
 </p>
+
+#### Pseudocódigo:
+```
+Repetir
+    // Bloque de instrucciones a ejecutar al menos una vez
+    // (Debe incluir la modificación de la variable de control)
+Mientras (condicion_logica)
+```
+
+#### Diagrama de flujo:
+
+<div align="center">
+<img width="507" height="502" alt="image" src="https://github.com/user-attachments/assets/9413b6a2-5524-43c1-9d3f-94691fe3a452" />
+</div>
+
+
 
 ### C. Estructura Para (`for`)
 <p align="justify">
 Es una estructura de control especializada en la iteración contada. Se utiliza cuando el programador conoce con exactitud el número de veces que se debe repetir el ciclo antes de que este inicie. Integra en una sola línea tres componentes esenciales: la inicialización de una variable contador, la condición de parada o límite, y la expresión de incremento o decremento que actualiza el contador tras cada iteración.
 </p>
+
 
 ### D. Anidamiento de estructuras repetitivas
 <p align="justify">
