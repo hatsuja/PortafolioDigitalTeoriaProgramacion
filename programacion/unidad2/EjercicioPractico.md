@@ -24,7 +24,6 @@ El algoritmo debe iniciar solicitando de forma obligatoria el ingreso del presup
 Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o por decisión del comprador), el programa debe imprimir en pantalla un informe detallado con el total gastado y el saldo sobrante exacto que le queda en su billetera.
 </p>
 
----
 
 ## 3.2 Análisis del Problema
 
@@ -43,8 +42,6 @@ Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o 
 * **Datos de Salida:**
   * Mensajes informativos interactivos por cada producto aceptado.
   * Reporte final: Monto total usado en el supermercado y el dinero sobrante.
-
----
 
 ## 3.3 Diagrama de flujo
 <p align="center">
@@ -99,4 +96,16 @@ int main() {
     return 0;
 }
 ```
+## 3.5 Prueba de escritorio
+
+
+| Paso / Bucle | presupuesto | precio_producto | gasto_acumulado | saldo_restante | Condición: ¿Excede presupuesto?<br>`(gasto_acumulado + precio_producto) > presupuesto` | Acción del programa / Salida en pantalla |
+| :--- | :---: | :---: | :---: | :---: | :--- | :--- |
+| **0. Inicio** | ? | ? | 0.00 | 0.00 | No aplica | Muestra: `"=== SIMULADOR DE CAJA REGISTRADORA==="` |
+| **1. Entrada** | 50.00 | ? | 0.00 | 0.00 | No aplica | El usuario ingresa 50. Muestra instrucciones. |
+| **2. Iteración 1** | 50.00 | 2.00 | 2.00 | 0.00 | `(0.00 + 2.00) > 50.00` ➔ **FALSO** | Suma al gasto. Muestra: `"Producto agregado. Gasto actual: $2.00"` |
+| **3. Iteración 2** | 50.00 | 40.00 | 42.00 | 0.00 | `(2.00 + 40.00) > 50.00` ➔ **FALSO** | Suma al gasto. Muestra: `"Producto agregado. Gasto actual: $42.00"` |
+| **4. Iteración 3** | 50.00 | 20.00 | 42.00 | 0.00 | `(42.00 + 20.00) > 50.00` ➔ **VERDADERO** (62.00 > 50.00) | No suma. Muestra: `"PRESUPUESTO EXCEDIDO..."` ➔ Se ejecuta el `break` (sale del bucle). |
+| **5. Cálculo Final** | 50.00 | 20.00 | 42.00 | 8.00 | No aplica | Calcula: `saldo_restante = 50.00 - 42.00` |
+| **6. Fin** | 50.00 | 20.00 | 42.00 | 8.00 | No aplica | Imprime el bloque del **RESUMEN DE FACTURACIÓN**. |
 
