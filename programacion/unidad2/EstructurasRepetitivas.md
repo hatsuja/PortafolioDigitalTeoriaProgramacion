@@ -1,29 +1,39 @@
 
 # <div align="center">Estructuras Repetitivas</div>
 
+---
 
 ## 2.1 ¿Qué son las Estructuras Repetitivas?
 
 <p align="justify">
-Las estructuras repetitivas (también conocidas como bucles, ciclos o estructuras de iteración) son instrucciones de control que permiten ejecutar un bloque específico de código múltiples veces. La repetición se mantiene activa de forma cíclica mientras una condición lógica determinada (expresión booleana) se evalúe como verdadera, o hasta que se alcance un número predeterminado de iteraciones.
+Las estructuras repetitivas son conocidas como bucles, ciclos o estructuras de iteración y estas son instrucciones de control que permiten ejecutar un bloque específico de código múltiples veces y la repetición se mantiene activa de forma cíclica mientras una condición lógica o expresión booleana se evalúe como verdadera, o hasta que se alcance un número predeterminado de iteraciones.
 </p>
 
-<p align="justify">
-En el desarrollo de software, estas estructuras son indispensables porque automatizan tareas rutinarias o masivas (como procesar las notas de un grupo de estudiantes), optimizan significativamente la longitud del código fuente y evitan la duplicación innecesaria de instrucciones lineales dentro del programa.
-</p>
-
----
 
 ## 2.2 Tipos de Estructuras Repetitivas
 
 <p align="justify">
-Dependiendo del momento en que se evalúe la condición de control y de si se conoce o no de antemano el número exacto de iteraciones, los bucles se clasifican técnicamente en las siguientes categorías:
+Dependiendo del momento en que se evalúe la condición de control y de si se conoce o no de antemano el número exacto de iteraciones, los bucles se clasifican en las siguientes categorías:
 </p>
 
 ### A. Estructura Mientras (`while`)
 <p align="justify">
 Es una estructura de pre-prueba. Esto significa que evalúa la condición lógica <b>antes</b> de permitir el ingreso al bloque de código. Si la condición es verdadera, ejecuta las instrucciones en su interior y vuelve a evaluar; si es falsa desde la primera comprobación, el bucle no se ejecuta ni una sola vez. Es ideal cuando el número de repeticiones depende de factores externos variables durante la ejecución.
 </p>
+
+### Pseudocódigo:
+```
+Mientras (condicion_logica) Hacer
+    // Bloque de instrucciones a repetir
+    // (Debe incluir la modificación de la variable de control)
+FinMientras
+```
+
+### Diagrama de flujo:
+
+<div align="center">
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/f0f8708f-b31e-4bf2-af25-c3d38682a45d" />
+</div>
 
 ### B. Estructura Hacer .. Mientras / Repetir .. Hasta (`do while`)
 <p align="justify">
@@ -48,9 +58,4 @@ El anidamiento ocurre cuando se coloca una estructura repetitiva (bucle interno)
 A continuación, se detalla la sintaxis lógica y la organización estructural en formato de pseudocódigo estándar para cada bucle analizado:
 </p>
 
-### Pseudocódigo: Estructura Mientras (`while`)
-```text
-Mientras (condicion_logica) Hacer
-    // Bloque de instrucciones a repetir
-    // (Debe incluir la modificación de la variable de control)
-FinMientras
+
