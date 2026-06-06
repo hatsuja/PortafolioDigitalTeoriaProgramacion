@@ -76,8 +76,8 @@ FinSegun
 <img width="810" height="307" alt="image" src="https://github.com/user-attachments/assets/d6c2271f-1925-4c2f-9b6b-b5bba8ba38c8" />
 </div>
 
-### D. Anidamiento de estructuras de Condicionales (`if else if`)
-#### Estructura Condicional en Cascada
+### D. Anidamiento de estructuras de Condicionales 
+#### Estructura Condicional en Cascada(`if else if`)
 **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
 
 #### Pseudocódigo:
