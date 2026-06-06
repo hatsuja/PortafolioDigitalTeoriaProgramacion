@@ -30,6 +30,10 @@ Si (condicion_logica) Entonces
     // Bloque de instrucciones a ejecutar si la condición es Verdadera
 FinSi
 ```
+### Diagrama de flujo
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/2ad3813f-c34e-4a2a-aa52-a8d45b4710b6" />
+
 
 ### B. Estructuras condicionales dobles (`if else`)
 <p align="justify">
