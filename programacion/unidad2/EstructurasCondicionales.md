@@ -13,10 +13,7 @@ Las estructuras condicionales (también conocidas como estructuras de bifurcaci�
 En el ámbito del desarrollo de software, estas estructuras dotan a los algoritmos de la capacidad de tomar decisiones dinámicas en tiempo real en base a los datos de entrada proporcionados por el usuario o por el entorno físico de ejecución, evitando que el programa actúe siempre de la misma forma rígida.
 </p>
 
----
-
 ## 1.2 Tipos de Condicionales
-
 
 ### A. Estructuras condicionales simples (`if`)
 <p align="justify">
@@ -35,7 +32,6 @@ FinSi
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/2ad3813f-c34e-4a2a-aa52-a8d45b4710b6" />
 </div>
 
----
 
 ### B. Estructuras condicionales dobles (`if else`)
 <p align="justify">
@@ -67,7 +63,6 @@ Se implementa cuando el problema exige evaluar más de dos caminos posibles depe
 
 * **Estructura `case`, `switch` (Selección Múltiple):** Es una alternativa optimizada para evaluar el valor exacto de una única variable cuantitativa (generalmente de tipo entero o carácter). Compara dicho valor de forma directa contra una serie de casos preestablecidos (<code>case</code>). Si encuentra una coincidencia exacta, procesa ese bloque; opcionalmente incluye una sección por defecto (<code>default</code> o de otro modo) para manejar situaciones no previstas.
 
----
 
 #### Pseudocódigo:
 ```
@@ -81,14 +76,12 @@ Según (variable_evaluada) Hacer
 FinSegun
 ```
 
----
 #### Diagrama de flujo:
 
 <div align="center">
 <img width="810" height="307" alt="image" src="https://github.com/user-attachments/assets/d6c2271f-1925-4c2f-9b6b-b5bba8ba38c8" />
 </div>
 
----
 ### Estructura Condicional en Cascada
 
 * **Estructura `if else if` (Anidada):** Se encarga de evaluar de forma ordenada y secuencial una serie de condiciones distintas. En el preciso instante en que una de las expresiones lógicas resulta verdadera, se ejecuta su respectivo bloque interno y el programa sale automáticamente de toda la estructura de control, omitiendo las validaciones restantes.
