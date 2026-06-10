@@ -44,6 +44,8 @@ En cumplimiento con los lineamientos de la actividad, se declara el uso de herra
 Arteaga Martínez M. M. (2023). Lógica de programación con Pseint. Enfoque práctico (Primera edición). Fondo Editorial Remington. Disponible en: https://research.ebsco.com/linkprocessor/plink?id=0c1115b8-e552-38e4-bc75-bf84bbdd293f 
 Celi Párraga, R. J., Bone Andrade, M. F y Mora Olivero, A. P. (2023). Programación Web del Frontend al Backend. Editorial Grupo AEA. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=933116 
 Toro Bonilla, J. M. (2023). Fundamentos de programación: Python (2.ª ed.). Editorial Universidad de Sevilla. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=871117 
+Guerra Salazar, J. E, Ramos Valencia,M. V, Vallejo Vallejo, G. E. (2023). Programando en C desde la práctica problemas resueltos. Puerto Madero Editorial. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=933288
+Bhuiyan, A. A., & Amiruzzaman, M. (2025). Programming with Java (2nd ed.). The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT). Disponible en: https://open.umn.edu/opentextbooks/textbooks/programming-with-java 
 Guerra Salazar, J. E, Ramos Valencia,M. V, Vallejo Vallejo, G. E. (2023). Programando en C desde la práctica problemas resueltos. Puerto Madero Editorial. Disponible en: https://dialnet.unirioja.es/servlet/libro?codigo=933288 
 
 
