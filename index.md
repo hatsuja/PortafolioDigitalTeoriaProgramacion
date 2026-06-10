@@ -9,7 +9,7 @@ Este espacio contiene el desarrollo teórico y práctico
 ### [Unidad 1](programacion/unidad1)
 * **[Algortimo](programacion/unidad1/Algoritmo.md)**
 
-* **[Lenguajes de Programación](programacion/unidad1/LenguajedeProgramacion.md):**
+* **[Lenguajes de Programación](programacion/unidad1/LenguajedeProgramacion.md)**
 
 * **[Lenguaje C](programacion/unidad1/LenguajeC.md)**
 
