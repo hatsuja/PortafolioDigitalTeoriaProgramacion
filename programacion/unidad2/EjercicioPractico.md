@@ -97,10 +97,13 @@ int main() {
 }
 ```
 ## 3.5 Prueba de escritorio
+### Resultado de la Terminal
 
 <p align="center">
 <img width="637" height="442" alt="image" src="https://github.com/user-attachments/assets/f7847683-e60b-46f2-a933-f86fed383114" />
 </p>
+
+### Calculos
 
 | Paso / Bucle | presupuesto | precio_producto | gasto_acumulado | saldo_restante | Condición: ¿Excede presupuesto?<br>`(gasto_acumulado + precio_producto) > presupuesto` | Acción del programa / Salida en pantalla |
 | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
