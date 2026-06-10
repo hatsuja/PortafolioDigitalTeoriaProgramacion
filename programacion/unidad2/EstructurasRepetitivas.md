@@ -18,7 +18,7 @@ Dependiendo del momento en que se evalúe la condición de control y de si se co
 
 ### A. Estructura Mientras (`while`)
 <p align="justify">
-Es una estructura de pre-prueba. Esto significa que evalúa la condición lógica <b>antes</b> de permitir el ingreso al bloque de código. Si la condición es verdadera, ejecuta las instrucciones en su interior y vuelve a evaluar; si es falsa desde la primera comprobación, el bucle no se ejecuta ni una sola vez. Es ideal cuando el número de repeticiones depende de factores externos variables durante la ejecución.
+Es una estructura de pre-prueba. Esto significa que evalúa la condición lógica antes de permitir el ingreso al bloque de código. Si la condición es verdadera, ejecuta las instrucciones en su interior y vuelve a evaluar; si es falsa desde la primera comprobación, el bucle no se ejecuta ni una sola vez. Es ideal cuando el número de repeticiones depende de factores externos variables durante la ejecución.
 </p>
 
 #### Pseudocódigo:
@@ -37,7 +37,7 @@ FinMientras
 
 ### B. Estructura Hacer .. Mientras / Repetir .. Hasta (`do while`)
 <p align="justify">
-Es una estructura en el que la condición de control se evalúa <b>al final</b> de la iteración lo que garantiza que el bloque de instrucciones interno se ejecutará <b>al menos una vez</b>, sin importar si la condición es falsa desde el principio incluso esta estructura es utilizada para la validación de datos de entrada por ejemplo de asegurar un rango de 0 a X.
+Es una estructura en el que la condición de control se evalúa al final de la iteración lo que garantiza que el bloque de instrucciones interno se ejecutará <b>al menos una vez</b>, sin importar si la condición es falsa desde el principio incluso esta estructura es utilizada para la validación de datos de entrada por ejemplo de asegurar un rango de 0 a X.
 </p>
 
 #### Pseudocódigo:
