@@ -41,7 +41,7 @@ Al concluir la ejecución del ciclo (ya sea por alcanzar el límite de dinero o 
 
 * **Datos de Salida:**
   * Mensajes informativos interactivos por cada producto aceptado.
-  * Reporte final: Monto total usado en el supermercado y el dinero sobrante.
+  * Dinero total usado en el supermercado y el dinero sobrante.
 
 ## 3.3 Diagrama de flujo
 <p align="center">
