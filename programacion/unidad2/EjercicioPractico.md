@@ -13,11 +13,11 @@ Un usuario desea realizar las compras del día en un supermercado local, pero cu
 El algoritmo debe iniciar solicitando de forma obligatoria el ingreso del presupuesto total disponible. Posteriormente, mediante un ciclo iterativo, el usuario irá registrando secuencialmente el precio de cada producto que introduce en su carrito de compras.
 </p>
 
-**Reglas de negocio y restricciones basadas en condiciones:**
-* El presupuesto ingresado al principio por el usuario debe ser un valor real estrictamente mayor a cero.
+**Reglas y restricciones:**
+* El presupuesto ingresado al principio por el usuario debe ser un valor real mayor a cero.
 * El precio de cada artículo individual no puede ser una cantidad negativa. Si se detecta un valor erróneo, el programa debe obligar a reingresar el precio de forma persistente sin afectar el acumulador actual.
 * Antes de sumar formalmente el costo de un nuevo producto al carrito, el sistema debe evaluar mediante una estructura condicional si dicha adición provocará que el gasto total acumulado exceda el presupuesto disponible. 
-* Si el precio del producto hace que se supere el dinero disponible, el sistema debe denegar el ingreso del artículo, emitir una alerta textual de **"Presupuesto Excedido"** e interrumpir inmediatamente la ejecución del bucle.
+* Si el precio del producto hace que se supere el dinero disponible, se debe denegar el ingreso del artículo, emitir una alerta e interrumpir inmediatamente la ejecución del bucle.
 * El proceso de compra repetitivo puede terminar de forma normal si el usuario digita un precio equivalente a `0`, lo cual indica que ha finalizado voluntariamente su selección de productos antes de agotar su dinero.
 
 <p align="justify">
