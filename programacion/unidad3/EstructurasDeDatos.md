@@ -3,7 +3,7 @@
 
 ## 1. Arreglos
 
-Los arreglos son estructuras de datos que almacenan una colección de elementos del mismo tipo de forma contigua en la memoria y se consideran "estáticas" porque su tamaño debe definirse al momento de la compilación y no cambia durante la ejecución.
+Los arreglos son estructuras de datos que almacenan una colección de elementos del mismo tipo en la memoria y se consideran "estáticas" porque su tamaño debe definirse al momento de la compilación y no cambia durante la ejecución.
 
 
 ## 2. Arreglo Unidimensional (Vectores)
@@ -37,19 +37,37 @@ int main() {
 Se organiza en filas y columnas. Es útil para representar tablas o cuadrículas, donde se requieren dos índices para localizar un dato.
 
 ```c
+
 #include <stdio.h>
 
 int main() {
-    int matriz[2][2] = {{1, 2}, {3, 4}};
+    // Problema: Registrar y promediar la temperatura de 3 ciudades en 4 semanas
+    float temps[3][4] = {
+        {22.5, 23.0, 21.5, 22.0}, // Ciudad A
+        {18.0, 19.5, 17.5, 18.5}, // Ciudad B
+        {25.0, 26.0, 24.5, 25.5}  // Ciudad C
+    };
+    
+    char* ciudades[] = {"Ciudad A", "Ciudad B", "Ciudad C"};
+    float suma;
 
-    printf("\n--- Arreglo Bidimensional ---\n");
-    for(int i = 0; i < 2; i++) {
-        for(int j = 0; j < 2; j++) {
-            printf("Elemento en [%d][%d]: %d\n", i, j, matriz[i][j]);
+    printf("--- Reporte de Temperaturas Promedio ---\n");
+
+    for(int i = 0; i < 3; i++) {
+        suma = 0;
+        printf("%s: ", ciudades[i]);
+        
+        for(int j = 0; j < 4; j++) {
+            printf("%.1f  ", temps[i][j]);
+            suma += temps[i][j];
         }
+        
+        printf("| Promedio: %.2f\n", suma / 4);
     }
+
     return 0;
 }
+
 ```
 
 ## 4. Arreglo Multidimensional
