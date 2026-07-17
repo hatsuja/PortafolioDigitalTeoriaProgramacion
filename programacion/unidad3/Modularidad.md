@@ -52,22 +52,37 @@ int main() {
     
     return 0;
 }
-}
-}
 ```
 
 ### Pase por Referencia
-La función recibe la dirección de memoria (referencia) de la variable original y cualquier cambio realizado dentro de la función altera directamente a la variable origina
+La función recibe la dirección de memoria (referencia) de la variable original y cualquier cambio realizado dentro de la función altera directamente a la variable original.
 
 ```c
-void sumarDiez(int &numero) {
-    numero = numero + 10; // Cambia el original
+
+#include <stdio.h>
+
+void duplicarPorReferencia(int *n) {
+    printf("Valor recibido: %d\n", *n);
+    *n = *n * 2; // Modificamos el contenido de la direccion
+    printf("Valor modificado: %d\n", *n);
 }
 
 int main() {
-    int x = 5;
-    sumarDiez(x);
-    // x ahora vale 15
+    int numero = 10;
+    
+    printf("--- Pase por Referencia ---\n");
+    printf("Valor original: %d\n", numero);
+    
+    // Enviamos la direccion de memoria usando &
+    duplicarPorReferencia(&numero);
+
+    //Despues de la funcion
+    
+    printf("Valor final: %d\n", numero);
+    printf("El valor original fue modificado.\n");
+    
+    return 0;
 }
+
 ```
 
