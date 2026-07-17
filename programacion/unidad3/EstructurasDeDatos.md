@@ -12,6 +12,7 @@ Los arreglos son estructuras de datos que almacenan una colección de elementos 
 ## 2. Arreglo Unidimensional (Vectores)
 Es una lista de elementos organizados en una sola fila. Se accede a ellos mediante un único índice.
 
+<img width="385" height="152" alt="image" src="https://github.com/user-attachments/assets/a34ed611-fecf-4b02-a275-fcf2f8c8619c" />
 
 
 ### Ejemplo
