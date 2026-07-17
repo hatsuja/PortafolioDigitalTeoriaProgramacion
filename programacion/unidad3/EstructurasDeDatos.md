@@ -1,11 +1,15 @@
-Aquí tienes la sección de Arreglos redactada de forma clara y técnica, siguiendo el formato Markdown para tu portafolio.
 
-Estructuras de Datos Estáticas: Arreglos
-Los arreglos son estructuras de datos que almacenan una colección de elementos del mismo tipo de forma contigua en la memoria. Se consideran "estáticas" porque su tamaño debe definirse al momento de la compilación y no cambia durante la ejecución.
+# Estructuras de Datos Estáticas
 
-1. Arreglo Unidimensional (Vectores)
+## 1. Arreglos
+
+Los arreglos son estructuras de datos que almacenan una colección de elementos del mismo tipo de forma contigua en la memoria y se consideran "estáticas" porque su tamaño debe definirse al momento de la compilación y no cambia durante la ejecución.
+
+
+## 2. Arreglo Unidimensional (Vectores)
 Es una lista de elementos organizados en una sola fila. Se accede a ellos mediante un único índice.
 
+```c
 C
 #include <stdio.h>
 
@@ -18,10 +22,13 @@ int main() {
     }
     return 0;
 }
-2. Arreglo Bidimensional (Matrices)
+
+```
+
+## 3. Arreglo Bidimensional (Matrices)
 Se organiza en filas y columnas. Es útil para representar tablas o cuadrículas, donde se requieren dos índices para localizar un dato.
 
-C
+```c
 #include <stdio.h>
 
 int main() {
@@ -35,10 +42,11 @@ int main() {
     }
     return 0;
 }
-3. Arreglo Multidimensional
-Son arreglos con más de dos dimensiones (ej. un cubo). Se utilizan para representar datos complejos como volúmenes o series temporales de datos.
+```
 
-C
+## 4. Arreglo Multidimensional
+Son arreglos con más de dos dimensiones (ej. un cubo). Se utilizan para representar datos complejos como volúmenes o series temporales de datos.
+```c
 #include <stdio.h>
 
 int main() {
@@ -49,3 +57,4 @@ int main() {
     printf("Valor en posicion [1][0][1]: %d\n", cubo[1][0][1]); // Imprime 6
     return 0;
 }
+```
