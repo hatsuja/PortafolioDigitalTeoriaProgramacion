@@ -9,11 +9,10 @@ La programación modular que permite dividir un programa complejo en unidades l�
 *   **Mantenimiento:** Es más sencillo localizar y corregir errores en un módulo específico.
 *   **Legibilidad:** El programa principal se vuelve más corto y fácil de entender.
 
----
 
 ## 2. Funciones
 
-Una función es un bloque de código autocontenido diseñado para realizar una tarea específica. Generalmente, una función puede recibir datos de entrada (parámetros) y retornar un resultado.
+Una función es un bloque de código diseñado para realizar una tarea específica, generalmente| una función puede recibir datos de entrada (parámetros) y retornar un resultado.
 
 ### Estructura Básica
 ```cpp
