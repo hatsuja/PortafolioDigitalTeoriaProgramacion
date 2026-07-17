@@ -1,7 +1,5 @@
 # 📘 Portafolio Digital: Teoría de la Programación
 
-Este espacio contiene el desarrollo teórico y práctico 
-
 ---
 
 ## 📂 Contenidos por Unidad
