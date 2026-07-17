@@ -15,18 +15,24 @@ La programación modular que permite dividir un programa complejo en unidades l�
 Una función es un bloque de código diseñado para realizar una tarea específica, generalmente| una función puede recibir datos de entrada (parámetros) y retornar un resultado.
 
 ### Estructura Básica
-```cpp
+```c
 tipoRetorno nombreFuncion(tipoParametro parametro) {
     // Cuerpo de la función
     return valor;
 }
+```
 
-3. Envío de Parámetros
+## 3. Envío de Parámetros
 El mecanismo de envío de parámetros determina cómo interactúa la función con los datos originales proporcionados por el llamador.
 
-3.1. Pase por Valor
-En este modo, la función recibe una copia del valor de la variable.
+### 3.1. Pase por Valor
+La función recibe una copia del valor de la variable y cualquier modificación realizada dentro de la función no afecta a la variable original.
 
-Comportamiento: Cualquier modificación realizada dentro de la función no afecta a la variable original.
+```c
+void incrementar(int num) {
+    num = num + 1; // Solo se modifica la copia local
+}
+```
 
-Uso ideal: Cuando solo necesitamos leer el dato pero proteger la integridad de la variable original.
+
+
