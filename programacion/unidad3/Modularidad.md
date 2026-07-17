@@ -15,13 +15,19 @@ La programación modular que permite dividir un programa complejo en unidades l�
 Una función es un bloque de código diseñado para realizar una tarea específica, generalmente| una función puede recibir datos de entrada (parámetros) y retornar un resultado.
 
 ### Estructura Básica
+* Retornar valor
 ```c
 tipoRetorno nombreFuncion(tipoParametro parametro) {
     // Cuerpo de la función
     return valor;
 }
 ```
-
+* No retornar valor
+```c
+void nombreFuncion(tipoParametro parametro) {
+    // Cuerpo de la función
+}
+```
 ## 3. Envío de Parámetros
 El mecanismo de envío de parámetros determina cómo interactúa la función con los datos originales proporcionados por el llamador.
 
