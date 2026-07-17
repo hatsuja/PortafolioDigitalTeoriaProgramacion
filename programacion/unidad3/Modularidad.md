@@ -29,7 +29,7 @@ void nombreFuncion(tipoParametro parametro) {
 }
 ```
 ## 3. Envío de Parámetros
-El mecanismo de envío de parámetros determina cómo interactúa la función con los datos originales proporcionados por el llamador.
+El mecanismo de envío de parámetros determina cómo interactúa la función con los datos originales proporcionados.
 
 ### Pase por Valor
 La función recibe una copia del valor de la variable y cualquier modificación realizada dentro de la función no afecta a la variable original.
