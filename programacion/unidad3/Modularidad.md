@@ -1,8 +1,8 @@
-# Programación Modular y Estructuras de Datos
+# Programación Modular
 
-## 1. Programación Modular
+## 1. Modularizacion
 
-La programación modular es un paradigma que permite dividir un programa complejo en unidades lógicas independientes llamadas **módulos** o **funciones**.
+La programación modular que permite dividir un programa complejo en unidades lógicas independientes llamadas **módulos** o **funciones**.
 
 ### Beneficios Principales
 *   **Reutilización:** El código puede usarse en diferentes partes del proyecto sin duplicarse.
