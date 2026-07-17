@@ -25,14 +25,34 @@ tipoRetorno nombreFuncion(tipoParametro parametro) {
 ## 3. Envío de Parámetros
 El mecanismo de envío de parámetros determina cómo interactúa la función con los datos originales proporcionados por el llamador.
 
-### 3.1. Pase por Valor
+### Pase por Valor
 La función recibe una copia del valor de la variable y cualquier modificación realizada dentro de la función no afecta a la variable original.
 
 ```c
-void incrementar(int num) {
-    num = num + 1; // Solo se modifica la copia local
+void sumarDiez(int numero) {
+    numero = numero + 10; // Solo cambia la copia
+}
+
+int main() {
+    int x = 5;
+    sumarDiez(x);
+    // x sigue valiendo 5
+}
 }
 ```
 
+### Pase por Referencia
+La función recibe la dirección de memoria (referencia) de la variable original y cualquier cambio realizado dentro de la función altera directamente a la variable origina
 
+```c
+void sumarDiez(int &numero) {
+    numero = numero + 10; // Cambia el original
+}
+
+int main() {
+    int x = 5;
+    sumarDiez(x);
+    // x ahora vale 15
+}
+```
 
