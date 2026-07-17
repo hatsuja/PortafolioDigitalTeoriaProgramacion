@@ -28,7 +28,10 @@ Este espacio contiene el desarrollo teórico y práctico
 * **[Reflexión Crítica](https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/programacion/unidad2/Reflexion2.md)**
 
 ### Unidad 3
-*   *(Próximamente)* 
 
----
+* **[Programación Modular](https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/programacion/unidad3/Modularidad.md)**
+
+* **[Estructuras de datos estáticas](https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/programacion/unidad3/EstructurasDeDatos.md)**
+
+* **[Reflexión Crítica](https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/programacion/unidad3/Reflexi%C3%B3n3.md)**
 
