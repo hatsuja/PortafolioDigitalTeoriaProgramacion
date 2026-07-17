@@ -31,7 +31,7 @@ void nombreFuncion(tipoParametro parametro) {
 ## 3. Envío de Parámetros
 El mecanismo de envío de parámetros determina cómo interactúa la función con los datos originales proporcionados.
 
-### Pase por Valor
+* ### Envío por Valor
 La función recibe una copia del valor de la variable y cualquier modificación realizada dentro de la función no afecta a la variable original.
 
 ```c
@@ -60,7 +60,7 @@ int main() {
 }
 ```
 
-### Pase por Referencia
+* ### Envío
 La función recibe la dirección de memoria (referencia) de la variable original y cualquier cambio realizado dentro de la función altera directamente a la variable original.
 
 ```c
