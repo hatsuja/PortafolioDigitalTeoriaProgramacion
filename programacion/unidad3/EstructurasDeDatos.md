@@ -76,11 +76,32 @@ Son arreglos con más de dos dimensiones (ej. un cubo). Se utilizan para represe
 #include <stdio.h>
 
 int main() {
-    // Cubo de 2x2x2
-    int cubo[2][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+    // Problema: Inventario de camisas
+    // Dimensiones: [Sucursal][Talla][Color]
+    
+    int inventario[2][2][2] = {
+        { // Sucursal Norte
+            {10, 15}, // Talla M: 10 blancos, 15 negros
+            {8, 12}   // Talla L: 8 blancos, 12 negros
+        },
+        { // Sucursal Sur
+            {5, 7},   // Talla M: 5 blancos, 7 negros
+            {20, 25}  // Talla L: 20 blancos, 25 negros
+        }
+    };
 
-    printf("\n--- Arreglo Multidimensional ---\n");
-    printf("Valor en posicion [1][0][1]: %d\n", cubo[1][0][1]); // Imprime 6
+    printf("--- Control de Inventario Tridimensional ---\n");
+    
+    // Recorrido del cubo de datos
+    for(int s = 0; s < 2; s++) {
+        printf("Sucursal %d:\n", s);
+        for(int t = 0; t < 2; t++) {
+            for(int c = 0; c < 2; c++) {
+                printf("  Talla %d, Color %d: %d unidades\n", t, c, inventario[s][t][c]);
+            }
+        }
+    }
+
     return 0;
 }
 ```
