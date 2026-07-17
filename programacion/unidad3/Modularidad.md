@@ -29,14 +29,29 @@ El mecanismo de envío de parámetros determina cómo interactúa la función co
 La función recibe una copia del valor de la variable y cualquier modificación realizada dentro de la función no afecta a la variable original.
 
 ```c
-void sumarDiez(int numero) {
-    numero = numero + 10; // Solo cambia la copia
+#include <stdio.h>
+
+void duplicarPorValor(int n) {
+    printf(" Valor recibido: %d\n", n);
+    n = n * 2;
+    printf("Valor modificado: %d\n", n);
 }
 
 int main() {
-    int x = 5;
-    sumarDiez(x);
-    // x sigue valiendo 5
+    int numero = 10;
+    
+    printf("--- Pase por Valor ---\n");
+    printf("Valor original: %d\n", numero);
+    
+    duplicarPorValor(numero);
+
+    //Despues de la funcion
+
+    printf("Valor final: %d\n", numero);
+    printf("El valor original permanece intacto.\n");
+    
+    return 0;
+}
 }
 }
 ```
