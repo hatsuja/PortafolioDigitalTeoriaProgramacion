@@ -20,3 +20,13 @@ tipoRetorno nombreFuncion(tipoParametro parametro) {
     // Cuerpo de la función
     return valor;
 }
+
+3. Envío de Parámetros
+El mecanismo de envío de parámetros determina cómo interactúa la función con los datos originales proporcionados por el llamador.
+
+3.1. Pase por Valor
+En este modo, la función recibe una copia del valor de la variable.
+
+Comportamiento: Cualquier modificación realizada dentro de la función no afecta a la variable original.
+
+Uso ideal: Cuando solo necesitamos leer el dato pero proteger la integridad de la variable original.
