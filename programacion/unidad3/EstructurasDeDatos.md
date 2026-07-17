@@ -74,7 +74,13 @@ int main() {
 ```
 
 ## 4. Arreglo Multidimensional
+
 Son arreglos con más de dos dimensiones (ej. un cubo). Se utilizan para representar datos complejos como volúmenes o series temporales de datos.
+
+
+<img width="1000" height="470" alt="GIffor2D3Dcube" src="https://github.com/user-attachments/assets/e9f97cdd-6150-40e7-86f4-082b58a31ebd" />
+
+
 ```c
 #include <stdio.h>
 
