@@ -1,5 +1,8 @@
-
+<div align="center">
+    
 # Estructuras de Datos Estáticas
+
+</div>
 
 ## 1. Arreglos
 
