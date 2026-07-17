@@ -10,16 +10,24 @@ Los arreglos son estructuras de datos que almacenan una colección de elementos 
 Es una lista de elementos organizados en una sola fila. Se accede a ellos mediante un único índice.
 
 ```c
-C
 #include <stdio.h>
 
 int main() {
-    int numeros[3] = {10, 20, 30}; // Declaración e inicialización
+    // Problema: Calcular el promedio de 5 notas de una materia
+    float notas[5] = {8.5, 9.0, 7.5, 10.0, 8.0};
+    float suma = 0;
 
-    printf("--- Arreglo Unidimensional ---\n");
-    for(int i = 0; i < 3; i++) {
-        printf("Elemento en indice [%d]: %d\n", i, numeros[i]);
+    printf("--- Registro de Notas ---\n");
+    
+    // Recorremos el arreglo para sumar las notas
+    for(int i = 0; i < 5; i++) {
+        printf("Nota %d: %.1f\n", i + 1, notas[i]);
+        suma += notas[i];
     }
+
+    printf("-------------------------\n");
+    printf("Promedio final: %.2f\n", suma / 5);
+
     return 0;
 }
 
