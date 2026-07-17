@@ -27,7 +27,7 @@ Este espacio contiene el desarrollo teórico y práctico
 
 * **[Reflexión Crítica](https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/programacion/unidad2/Reflexion2.md)**
 
-### Unidad 3
+### [Unidad 3](programacion/unidad3)
 
 * **[Programación Modular](https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/programacion/unidad3/Modularidad.md)**
 
