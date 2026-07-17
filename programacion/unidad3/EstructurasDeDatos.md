@@ -12,6 +12,11 @@ Los arreglos son estructuras de datos que almacenan una colección de elementos 
 ## 2. Arreglo Unidimensional (Vectores)
 Es una lista de elementos organizados en una sola fila. Se accede a ellos mediante un único índice.
 
+
+
+### Ejemplo
+
+
 ```c
 #include <stdio.h>
 
@@ -38,6 +43,11 @@ int main() {
 
 ## 3. Arreglo Bidimensional (Matrices)
 Se organiza en filas y columnas. Es útil para representar tablas o cuadrículas, donde se requieren dos índices para localizar un dato.
+
+
+
+### Ejemplo
+
 
 ```c
 
@@ -80,6 +90,8 @@ Son arreglos con más de dos dimensiones (ej. un cubo). Se utilizan para represe
 
 <img width="1000" height="470" alt="GIffor2D3Dcube" src="https://github.com/user-attachments/assets/e9f97cdd-6150-40e7-86f4-082b58a31ebd" />
 
+
+### Ejemplo
 
 ```c
 #include <stdio.h>
