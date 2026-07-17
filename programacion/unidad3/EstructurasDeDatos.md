@@ -1,6 +1,6 @@
 <div align="center">
     
-# Estructuras de Datos Estáticas
+# Estructuras de datos estáticas
 
 </div>
 
