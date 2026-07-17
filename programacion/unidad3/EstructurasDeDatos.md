@@ -44,6 +44,7 @@ int main() {
 ## 3. Arreglo Bidimensional (Matrices)
 Se organiza en filas y columnas. Es útil para representar tablas o cuadrículas, donde se requieren dos índices para localizar un dato.
 
+<img width="1000" height="314" alt="GIffor2D3D11" src="https://github.com/user-attachments/assets/9fa736de-5ade-4870-9f6a-b85be3e4cfc2" />
 
 
 ### Ejemplo
