@@ -44,7 +44,7 @@ int main() {
 }
 
 ```
-### Prueba de Escritorio
+### Prueba de escritorio
 
 <img width="247" height="182" alt="image" src="https://github.com/user-attachments/assets/963a1aa1-881c-4765-964c-0139107c5eea" />
 
@@ -93,7 +93,7 @@ int main() {
 
 ```
 
-### Prueba de Escritorio
+### Prueba de escritorio
 
 <img width="526" height="85" alt="image" src="https://github.com/user-attachments/assets/e92b3ea9-d1d5-40e6-bdc4-05b762e31f60" />
 
@@ -141,7 +141,7 @@ int main() {
     return 0;
 }
 ```
-### Prueba de Escritorio
+### Prueba de escritorio
 
 <img width="432" height="241" alt="image" src="https://github.com/user-attachments/assets/202df8c8-e5b7-4acf-b5f0-615f0f232832" />
 
