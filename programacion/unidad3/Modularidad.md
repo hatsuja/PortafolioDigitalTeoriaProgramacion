@@ -63,7 +63,7 @@ int main() {
     return 0;
 }
 ```
-### Prueba de Escritorio
+### Prueba de escritorio
 
 <img width="363" height="127" alt="image" src="https://github.com/user-attachments/assets/9e8fc5d0-2438-405c-857e-872d2cebd6f3" />
 
@@ -101,7 +101,7 @@ int main() {
 
 ```
 
-### Prueba de Escritorio
+### Prueba de escritorio
 
 <img width="325" height="127" alt="image" src="https://github.com/user-attachments/assets/8d36d7be-62fa-4ee1-a370-6d5f931c6e04" />
 
