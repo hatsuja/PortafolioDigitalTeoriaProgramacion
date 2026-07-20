@@ -48,12 +48,6 @@ int main() {
 
 <img width="247" height="182" alt="image" src="https://github.com/user-attachments/assets/963a1aa1-881c-4765-964c-0139107c5eea" />
 
-<div align="center">
-    
-<img width="247" height="182" alt="image" src="https://github.com/user-attachments/assets/963a1aa1-881c-4765-964c-0139107c5eea" />
-
-</div>
-
 
 
 ## 3. Arreglo Bidimensional (Matrices)
@@ -99,6 +93,11 @@ int main() {
 
 ```
 
+### Prueba de Escritorio
+
+<img width="526" height="85" alt="image" src="https://github.com/user-attachments/assets/e92b3ea9-d1d5-40e6-bdc4-05b762e31f60" />
+
+
 ## 4. Arreglo Multidimensional
 
 Son arreglos con más de dos dimensiones (ej. un cubo). Se utilizan para representar datos complejos como volúmenes o series temporales de datos.
@@ -142,6 +141,10 @@ int main() {
     return 0;
 }
 ```
+### Prueba de Escritorio
+
+<img width="432" height="241" alt="image" src="https://github.com/user-attachments/assets/202df8c8-e5b7-4acf-b5f0-615f0f232832" />
+
 
 <p align="center">
   <a href="https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/index.md">
