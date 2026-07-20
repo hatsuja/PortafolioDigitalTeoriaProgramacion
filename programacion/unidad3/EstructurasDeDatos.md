@@ -31,7 +31,7 @@ int main() {
 
     printf("--- Registro de Notas ---\n");
     
-    // Recorremos el arreglo para sumar las notas
+
     for(int i = 0; i < 5; i++) {
         printf("Nota %d: %.1f\n", i + 1, notas[i]);
         suma += notas[i];
@@ -44,6 +44,13 @@ int main() {
 }
 
 ```
+<div align="center">
+    
+<img width="247" height="182" alt="image" src="https://github.com/user-attachments/assets/963a1aa1-881c-4765-964c-0139107c5eea" />
+
+</div>
+
+
 
 ## 3. Arreglo Bidimensional (Matrices)
 Se organiza en filas y columnas. Es útil para representar tablas o cuadrículas, donde se requieren dos índices para localizar un dato.
