@@ -44,6 +44,10 @@ int main() {
 }
 
 ```
+### Prueba de Escritorio
+
+<img width="247" height="182" alt="image" src="https://github.com/user-attachments/assets/963a1aa1-881c-4765-964c-0139107c5eea" />
+
 <div align="center">
     
 <img width="247" height="182" alt="image" src="https://github.com/user-attachments/assets/963a1aa1-881c-4765-964c-0139107c5eea" />
