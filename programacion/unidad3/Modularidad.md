@@ -63,6 +63,11 @@ int main() {
     return 0;
 }
 ```
+### Prueba de Escritorio
+
+<img width="363" height="127" alt="image" src="https://github.com/user-attachments/assets/9e8fc5d0-2438-405c-857e-872d2cebd6f3" />
+
+
 
 ### Envío por referencia
 La función recibe la dirección de memoria (referencia) de la variable original y cualquier cambio realizado dentro de la función altera directamente a la variable original.
@@ -95,6 +100,11 @@ int main() {
 }
 
 ```
+
+### Prueba de Escritorio
+
+<img width="325" height="127" alt="image" src="https://github.com/user-attachments/assets/8d36d7be-62fa-4ee1-a370-6d5f931c6e04" />
+
 
 <p align="center">
   <a href="https://github.com/hatsuja/PortafolioDigitalTeoriaProgramacion/blob/main/index.md">
